@@ -117,15 +117,15 @@ export function OceanScene({
       style={{ background: 'transparent' }}
       onClick={handleCanvasClick}
     >
-      {/* ── Studio & Sunlight Lighting ── */}
-      <ambientLight intensity={0.4} color="#dbeafe" />
+      {/* ── Studio & Sunlight Lighting (Brightened for scientific clarity) ── */}
+      <ambientLight intensity={0.85} color="#e0f2fe" />
       <directionalLight
         position={[6, 5, 4]}
-        intensity={1.3}
-        color="#fffbeb"
+        intensity={1.7}
+        color="#ffffff"
         castShadow={false}
       />
-      <pointLight position={[-4, -3, -3]} intensity={0.25} color="#0284c7" />
+      <pointLight position={[-4, -3, -3]} intensity={0.5} color="#38bdf8" />
 
       {/* ── Space Background Stars (Distant White Dots) ── */}
       <Stars radius={100} depth={60} count={5000} factor={1.2} saturation={0} fade speed={0.2} />

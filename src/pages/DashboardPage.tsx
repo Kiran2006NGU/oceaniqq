@@ -26,6 +26,8 @@ import {
   Maximize2,
   Tv,
   Plus,
+  ChevronDown,
+  Check,
 } from 'lucide-react'
 
 import { useDashboardState } from '@/hooks/useDashboardState'
@@ -99,6 +101,9 @@ export function DashboardPage() {
     () => searchParams.get('selectPortion') === 'true'
   )
   const [selectedPortionBounds, setSelectedPortionBounds] = useState<SelectedPortionBounds | null>(null)
+
+  // Collapsible Ocean Variable Selector
+  const [isVariableDropdownOpen, setIsVariableDropdownOpen] = useState(false)
 
   // ── Camera Navigation Handlers ──────────────────────────────────────────
   const handleNavHome = useCallback(() => {
@@ -186,24 +191,69 @@ export function DashboardPage() {
             </span>
           </div>
 
-          {/* Center: Variable Pills */}
-          <div className="flex items-center gap-1 p-1 rounded-xl bg-[#020b18] border border-white/10">
-            {VARIABLES.map((v) => (
-              <button
-                key={v.id}
-                onClick={() => state.setSelectedVariable(v.id)}
-                title={v.desc}
-                className={`flex items-center gap-1 px-2.5 sm:px-3 py-1 rounded-lg text-xs font-mono font-semibold transition-all cursor-pointer ${
-                  state.selectedVariable === v.id
-                    ? 'bg-cyan-500 text-black shadow-sm'
-                    : 'text-slate-400 hover:text-white hover:bg-white/5'
-                }`}
-              >
-                <span>{v.icon}</span>
-                <span className="hidden sm:inline">{v.label}</span>
-              </button>
-            ))}
-          </div>
+          {/* Center: Collapsible Variable Button & Dropdown */}
+          {(() => {
+            const activeVar = VARIABLES.find((v) => v.id === state.selectedVariable) || VARIABLES[0]
+            return (
+              <div className="relative">
+                <button
+                  onClick={() => setIsVariableDropdownOpen((o) => !o)}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-slate-200 font-mono text-xs font-semibold transition-all cursor-pointer shadow-sm hover:border-cyan-400/50"
+                  title="Click to switch Ocean Layer"
+                >
+                  <span className="text-base">{activeVar.icon}</span>
+                  <span className="font-bold text-white">{activeVar.label}</span>
+                  <ChevronDown
+                    size={13}
+                    className={`transition-transform duration-200 text-slate-400 ${
+                      isVariableDropdownOpen ? 'rotate-180 text-cyan-400' : ''
+                    }`}
+                  />
+                </button>
+
+                {isVariableDropdownOpen && (
+                  <div className="absolute left-1/2 -translate-x-1/2 sm:left-0 sm:translate-x-0 mt-2 w-64 rounded-2xl bg-[#0e1726] border border-cyan-500/40 shadow-2xl p-2 z-50 animate-fade-in font-mono text-xs space-y-1 backdrop-blur-md">
+                    <div className="text-[10px] uppercase font-bold text-slate-400 px-2.5 py-1 border-b border-white/10 flex items-center justify-between">
+                      <span>Ocean Parameter</span>
+                      <span className="text-[9px] text-cyan-400 font-semibold">Active</span>
+                    </div>
+                    {VARIABLES.map((v) => {
+                      const isSelected = state.selectedVariable === v.id
+                      return (
+                        <button
+                          key={v.id}
+                          onClick={() => {
+                            state.setSelectedVariable(v.id)
+                            setIsVariableDropdownOpen(false)
+                          }}
+                          className={`w-full flex items-center justify-between p-2 rounded-xl transition-all cursor-pointer text-left ${
+                            isSelected
+                              ? 'bg-cyan-500 text-black font-bold shadow-md shadow-cyan-500/30'
+                              : 'hover:bg-white/10 text-slate-200'
+                          }`}
+                        >
+                          <div className="flex items-center gap-2.5">
+                            <span className="text-lg">{v.icon}</span>
+                            <div>
+                              <div className="text-xs font-bold leading-tight">{v.label}</div>
+                              <div
+                                className={`text-[10px] line-clamp-1 ${
+                                  isSelected ? 'text-cyan-950 font-medium' : 'text-slate-400'
+                                }`}
+                              >
+                                {v.desc}
+                              </div>
+                            </div>
+                          </div>
+                          {isSelected && <Check size={15} strokeWidth={3} />}
+                        </button>
+                      )
+                    })}
+                  </div>
+                )}
+              </div>
+            )
+          })()}
 
           {/* Right: Basemap & Scientific Dock Toggle */}
           <div className="flex items-center gap-2">

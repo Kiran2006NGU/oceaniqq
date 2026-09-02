@@ -155,18 +155,33 @@ export function Navbar() {
             <span className="hidden sm:inline font-bold text-cyan-300">{roleInfo.badge}</span>
           </button>
 
-          {/* Theme Mode Switcher */}
+          {/* Theme Mode Switcher (Prominent & Intuitive) */}
           <button
             onClick={cycleTheme}
-            title={`Current Theme: ${
+            title={`Active Theme: ${
               theme === 'dark' ? 'Deep Ocean Dark' : theme === 'light' ? 'Maritime Research Light' : 'Satellite Tactical'
             } (Click to toggle)`}
-            className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white transition-all cursor-pointer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-xs font-mono font-bold text-slate-200 hover:text-white transition-all cursor-pointer shadow-sm"
             aria-label="Toggle Theme Mode"
           >
-            {theme === 'dark' && <Moon size={15} className="text-cyan-300" />}
-            {theme === 'light' && <Sun size={15} className="text-amber-400" />}
-            {theme === 'tactical' && <Crosshair size={15} className="text-emerald-400" />}
+            {theme === 'dark' && (
+              <>
+                <Moon size={14} className="text-cyan-300" />
+                <span className="hidden sm:inline text-cyan-200">Dark</span>
+              </>
+            )}
+            {theme === 'light' && (
+              <>
+                <Sun size={14} className="text-amber-500" />
+                <span className="hidden sm:inline text-slate-800">Light</span>
+              </>
+            )}
+            {theme === 'tactical' && (
+              <>
+                <Crosshair size={14} className="text-emerald-400" />
+                <span className="hidden sm:inline text-emerald-300">Tactical</span>
+              </>
+            )}
           </button>
 
           {/* Mobile menu button */}
