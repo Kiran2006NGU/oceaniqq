@@ -1,0 +1,46 @@
+# Node & Vite Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python & Backend
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.secret
+
+# IDE & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Large datasets (exceeds GitHub 100MB limit)
+*.nc
+*.nc4
+*.h5
+*.hdf5
+*.tif
+*.grib*
+!backend/data/demo/demo_ocean.nc
+backend/uploads/*
+!backend/uploads/.gitkeep

@@ -1,0 +1,8283 @@
+[
+  {
+    "id": "ARGO_2903300",
+    "platform_id": "WMO-2903300",
+    "type": "argo",
+    "latitude": 15.2,
+    "longitude": 65.4,
+    "current_depth": 5.0,
+    "max_depth": 2000.0,
+    "temperature": 29.2,
+    "salinity": 36.4,
+    "chlorophyll": 0.12,
+    "region": "Arabian Sea Central",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 42,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.2,
+        "salinity": 36.44,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.85,
+        "salinity": 36.42,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.51,
+        "salinity": 36.4,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.85,
+        "salinity": 36.36,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.2,
+        "salinity": 36.32,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.95,
+        "salinity": 36.25,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.49,
+        "salinity": 36.15,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.12,
+        "salinity": 36.06,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.62,
+        "salinity": 35.89,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.42,
+        "salinity": 35.74,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.79,
+        "salinity": 35.5,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.08,
+        "salinity": 35.36,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.13,
+        "salinity": 35.26,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.97,
+        "salinity": 34.98,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.37,
+        "salinity": 34.88,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 14.95,
+        "lon": 65.05,
+        "cycle": 40
+      },
+      {
+        "lat": 15.08,
+        "lon": 65.22,
+        "cycle": 41
+      },
+      {
+        "lat": 15.2,
+        "lon": 65.4,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903301",
+    "platform_id": "WMO-2903301",
+    "type": "argo",
+    "latitude": 18.5,
+    "longitude": 68.2,
+    "current_depth": 6.0,
+    "max_depth": 2000.0,
+    "temperature": 28.6,
+    "salinity": 36.8,
+    "chlorophyll": 0.16,
+    "region": "Arabian Sea North",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 43,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.6,
+        "salinity": 36.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.26,
+        "salinity": 36.82,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.93,
+        "salinity": 36.79,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.28,
+        "salinity": 36.74,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.65,
+        "salinity": 36.69,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.43,
+        "salinity": 36.6,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.0,
+        "salinity": 36.49,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.66,
+        "salinity": 36.38,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.23,
+        "salinity": 36.17,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.08,
+        "salinity": 35.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.53,
+        "salinity": 35.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.89,
+        "salinity": 35.51,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.98,
+        "salinity": 35.38,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.89,
+        "salinity": 35.05,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.34,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.58,
+        "salinity": 34.84,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 18.25,
+        "lon": 67.85,
+        "cycle": 40
+      },
+      {
+        "lat": 18.38,
+        "lon": 68.02,
+        "cycle": 41
+      },
+      {
+        "lat": 18.5,
+        "lon": 68.2,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903302",
+    "platform_id": "WMO-2903302",
+    "type": "argo",
+    "latitude": 11.8,
+    "longitude": 62.5,
+    "current_depth": 7.0,
+    "max_depth": 2000.0,
+    "temperature": 28.9,
+    "salinity": 36.1,
+    "chlorophyll": 0.2,
+    "region": "Arabian Sea West",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 44,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.9,
+        "salinity": 36.14,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.56,
+        "salinity": 36.12,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.22,
+        "salinity": 36.11,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.56,
+        "salinity": 36.07,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.92,
+        "salinity": 36.04,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.69,
+        "salinity": 35.98,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.24,
+        "salinity": 35.9,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.89,
+        "salinity": 35.83,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.42,
+        "salinity": 35.68,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.25,
+        "salinity": 35.55,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.66,
+        "salinity": 35.36,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.99,
+        "salinity": 35.24,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.06,
+        "salinity": 35.17,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.93,
+        "salinity": 34.93,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.36,
+        "salinity": 34.85,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.59,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 11.55,
+        "lon": 62.15,
+        "cycle": 40
+      },
+      {
+        "lat": 11.68,
+        "lon": 62.32,
+        "cycle": 41
+      },
+      {
+        "lat": 11.8,
+        "lon": 62.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903303",
+    "platform_id": "WMO-2903303",
+    "type": "argo",
+    "latitude": 8.5,
+    "longitude": 71.0,
+    "current_depth": 8.0,
+    "max_depth": 2000.0,
+    "temperature": 29.5,
+    "salinity": 35.8,
+    "chlorophyll": 0.24,
+    "region": "Lakshadweep Basin",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 45,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.5,
+        "salinity": 35.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.15,
+        "salinity": 35.83,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.81,
+        "salinity": 35.81,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.13,
+        "salinity": 35.79,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.47,
+        "salinity": 35.76,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.21,
+        "salinity": 35.71,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.73,
+        "salinity": 35.65,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.34,
+        "salinity": 35.59,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.82,
+        "salinity": 35.47,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.59,
+        "salinity": 35.37,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.92,
+        "salinity": 35.21,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.18,
+        "salinity": 35.13,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.21,
+        "salinity": 35.08,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 7.0,
+        "salinity": 34.88,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.39,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 8.25,
+        "lon": 70.65,
+        "cycle": 40
+      },
+      {
+        "lat": 8.38,
+        "lon": 70.82,
+        "cycle": 41
+      },
+      {
+        "lat": 8.5,
+        "lon": 71.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903304",
+    "platform_id": "WMO-2903304",
+    "type": "argo",
+    "latitude": 14.0,
+    "longitude": 58.0,
+    "current_depth": 9.0,
+    "max_depth": 2000.0,
+    "temperature": 28.2,
+    "salinity": 36.5,
+    "chlorophyll": 0.28,
+    "region": "Gulf of Aden Approaches",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 46,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.2,
+        "salinity": 36.54,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 27.87,
+        "salinity": 36.52,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.54,
+        "salinity": 36.5,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 26.9,
+        "salinity": 36.46,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.28,
+        "salinity": 36.42,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.08,
+        "salinity": 36.33,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.68,
+        "salinity": 36.24,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.36,
+        "salinity": 36.14,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.96,
+        "salinity": 35.96,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.85,
+        "salinity": 35.8,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.36,
+        "salinity": 35.55,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.76,
+        "salinity": 35.4,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.88,
+        "salinity": 35.29,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.84,
+        "salinity": 35.0,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.31,
+        "salinity": 34.89,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.56,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.17,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 13.75,
+        "lon": 57.65,
+        "cycle": 40
+      },
+      {
+        "lat": 13.88,
+        "lon": 57.82,
+        "cycle": 41
+      },
+      {
+        "lat": 14.0,
+        "lon": 58.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903305",
+    "platform_id": "WMO-2903305",
+    "type": "argo",
+    "latitude": 21.0,
+    "longitude": 63.5,
+    "current_depth": 10.0,
+    "max_depth": 2000.0,
+    "temperature": 27.8,
+    "salinity": 36.9,
+    "chlorophyll": 0.12,
+    "region": "Oman Coastal Current",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 47,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 27.8,
+        "salinity": 36.94,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 27.47,
+        "salinity": 36.91,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.15,
+        "salinity": 36.89,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 26.52,
+        "salinity": 36.84,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 25.91,
+        "salinity": 36.79,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 24.73,
+        "salinity": 36.69,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.35,
+        "salinity": 36.57,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.06,
+        "salinity": 36.46,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.7,
+        "salinity": 36.24,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.62,
+        "salinity": 36.05,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.18,
+        "salinity": 35.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.62,
+        "salinity": 35.55,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.78,
+        "salinity": 35.41,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.79,
+        "salinity": 35.07,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.29,
+        "salinity": 34.93,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.55,
+        "salinity": 34.84,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.16,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 20.75,
+        "lon": 63.15,
+        "cycle": 40
+      },
+      {
+        "lat": 20.88,
+        "lon": 63.32,
+        "cycle": 41
+      },
+      {
+        "lat": 21.0,
+        "lon": 63.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903306",
+    "platform_id": "WMO-2903306",
+    "type": "argo",
+    "latitude": 12.5,
+    "longitude": 69.5,
+    "current_depth": 11.0,
+    "max_depth": 2000.0,
+    "temperature": 29.1,
+    "salinity": 35.9,
+    "chlorophyll": 0.16,
+    "region": "Goa Deep Offshore",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 48,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.1,
+        "salinity": 35.94,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.76,
+        "salinity": 35.93,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.42,
+        "salinity": 35.91,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.75,
+        "salinity": 35.88,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.11,
+        "salinity": 35.86,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.87,
+        "salinity": 35.8,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.41,
+        "salinity": 35.73,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.04,
+        "salinity": 35.67,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.56,
+        "salinity": 35.54,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.36,
+        "salinity": 35.43,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.75,
+        "salinity": 35.26,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.05,
+        "salinity": 35.16,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.11,
+        "salinity": 35.11,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.95,
+        "salinity": 34.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.37,
+        "salinity": 34.83,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.59,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 12.25,
+        "lon": 69.15,
+        "cycle": 40
+      },
+      {
+        "lat": 12.38,
+        "lon": 69.32,
+        "cycle": 41
+      },
+      {
+        "lat": 12.5,
+        "lon": 69.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903307",
+    "platform_id": "WMO-2903307",
+    "type": "argo",
+    "latitude": 7.0,
+    "longitude": 66.0,
+    "current_depth": 12.0,
+    "max_depth": 2000.0,
+    "temperature": 28.8,
+    "salinity": 35.6,
+    "chlorophyll": 0.2,
+    "region": "Carlsberg Ridge",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 49,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.8,
+        "salinity": 35.64,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.46,
+        "salinity": 35.63,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.13,
+        "salinity": 35.62,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.47,
+        "salinity": 35.6,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.83,
+        "salinity": 35.58,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.6,
+        "salinity": 35.54,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.16,
+        "salinity": 35.48,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.81,
+        "salinity": 35.43,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.36,
+        "salinity": 35.33,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.19,
+        "salinity": 35.24,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.62,
+        "salinity": 35.11,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.95,
+        "salinity": 35.05,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.03,
+        "salinity": 35.02,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.92,
+        "salinity": 34.85,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.35,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.58,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 6.75,
+        "lon": 65.65,
+        "cycle": 40
+      },
+      {
+        "lat": 6.88,
+        "lon": 65.82,
+        "cycle": 41
+      },
+      {
+        "lat": 7.0,
+        "lon": 66.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903308",
+    "platform_id": "WMO-2903308",
+    "type": "argo",
+    "latitude": 12.5,
+    "longitude": 85.0,
+    "current_depth": 13.0,
+    "max_depth": 2000.0,
+    "temperature": 29.6,
+    "salinity": 33.4,
+    "chlorophyll": 0.24,
+    "region": "Bay of Bengal Central",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 50,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.6,
+        "salinity": 33.44,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.25,
+        "salinity": 33.46,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.9,
+        "salinity": 33.47,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.23,
+        "salinity": 33.5,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.57,
+        "salinity": 33.53,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.3,
+        "salinity": 33.58,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.81,
+        "salinity": 33.64,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.42,
+        "salinity": 33.7,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.88,
+        "salinity": 33.79,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.65,
+        "salinity": 33.88,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.97,
+        "salinity": 34.03,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.22,
+        "salinity": 34.2,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.23,
+        "salinity": 34.35,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 7.02,
+        "salinity": 34.48,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.4,
+        "salinity": 34.6,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.61,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 12.25,
+        "lon": 84.65,
+        "cycle": 40
+      },
+      {
+        "lat": 12.38,
+        "lon": 84.82,
+        "cycle": 41
+      },
+      {
+        "lat": 12.5,
+        "lon": 85.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903309",
+    "platform_id": "WMO-2903309",
+    "type": "argo",
+    "latitude": 16.0,
+    "longitude": 88.5,
+    "current_depth": 14.0,
+    "max_depth": 2000.0,
+    "temperature": 29.8,
+    "salinity": 32.1,
+    "chlorophyll": 0.28,
+    "region": "Bay of Bengal North",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 51,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.8,
+        "salinity": 32.14,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.45,
+        "salinity": 32.17,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 29.1,
+        "salinity": 32.2,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.41,
+        "salinity": 32.26,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.75,
+        "salinity": 32.32,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.48,
+        "salinity": 32.43,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.97,
+        "salinity": 32.56,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.57,
+        "salinity": 32.67,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 21.02,
+        "salinity": 32.88,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.77,
+        "salinity": 33.07,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 15.05,
+        "salinity": 33.4,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.28,
+        "salinity": 33.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.28,
+        "salinity": 33.95,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 7.04,
+        "salinity": 34.26,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.41,
+        "salinity": 34.48,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.61,
+        "salinity": 34.6,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.2,
+        "salinity": 34.62,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 15.75,
+        "lon": 88.15,
+        "cycle": 40
+      },
+      {
+        "lat": 15.88,
+        "lon": 88.32,
+        "cycle": 41
+      },
+      {
+        "lat": 16.0,
+        "lon": 88.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903310",
+    "platform_id": "WMO-2903310",
+    "type": "argo",
+    "latitude": 9.2,
+    "longitude": 83.0,
+    "current_depth": 15.0,
+    "max_depth": 2000.0,
+    "temperature": 29.2,
+    "salinity": 34.0,
+    "chlorophyll": 0.12,
+    "region": "Sri Lanka Basin",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 52,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.2,
+        "salinity": 34.04,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.85,
+        "salinity": 34.05,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.51,
+        "salinity": 34.06,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.85,
+        "salinity": 34.07,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.2,
+        "salinity": 34.09,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.95,
+        "salinity": 34.11,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.49,
+        "salinity": 34.14,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.12,
+        "salinity": 34.17,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.62,
+        "salinity": 34.21,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.42,
+        "salinity": 34.25,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.79,
+        "salinity": 34.33,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.08,
+        "salinity": 34.43,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.13,
+        "salinity": 34.53,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.97,
+        "salinity": 34.58,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.37,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 8.95,
+        "lon": 82.65,
+        "cycle": 40
+      },
+      {
+        "lat": 9.08,
+        "lon": 82.82,
+        "cycle": 41
+      },
+      {
+        "lat": 9.2,
+        "lon": 83.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903311",
+    "platform_id": "WMO-2903311",
+    "type": "argo",
+    "latitude": 14.8,
+    "longitude": 82.5,
+    "current_depth": 16.0,
+    "max_depth": 2000.0,
+    "temperature": 29.4,
+    "salinity": 33.2,
+    "chlorophyll": 0.16,
+    "region": "Andhra Coast Deep",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 53,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.4,
+        "salinity": 33.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.05,
+        "salinity": 33.26,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.71,
+        "salinity": 33.28,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.04,
+        "salinity": 33.31,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.38,
+        "salinity": 33.34,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.13,
+        "salinity": 33.4,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.65,
+        "salinity": 33.48,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.27,
+        "salinity": 33.54,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.75,
+        "salinity": 33.65,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.54,
+        "salinity": 33.75,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.88,
+        "salinity": 33.94,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.15,
+        "salinity": 34.12,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.18,
+        "salinity": 34.29,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.99,
+        "salinity": 34.45,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.39,
+        "salinity": 34.58,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.65,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.65,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 14.55,
+        "lon": 82.15,
+        "cycle": 40
+      },
+      {
+        "lat": 14.68,
+        "lon": 82.32,
+        "cycle": 41
+      },
+      {
+        "lat": 14.8,
+        "lon": 82.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903312",
+    "platform_id": "WMO-2903312",
+    "type": "argo",
+    "latitude": 18.2,
+    "longitude": 89.8,
+    "current_depth": 17.0,
+    "max_depth": 2000.0,
+    "temperature": 29.0,
+    "salinity": 31.8,
+    "chlorophyll": 0.2,
+    "region": "Ganges Fan Outflow",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 54,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.0,
+        "salinity": 31.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.66,
+        "salinity": 31.87,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.32,
+        "salinity": 31.91,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.66,
+        "salinity": 31.97,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.01,
+        "salinity": 32.04,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.78,
+        "salinity": 32.16,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.33,
+        "salinity": 32.3,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.96,
+        "salinity": 32.44,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.49,
+        "salinity": 32.67,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.31,
+        "salinity": 32.88,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.71,
+        "salinity": 33.25,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.02,
+        "salinity": 33.58,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.08,
+        "salinity": 33.86,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.94,
+        "salinity": 34.21,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.36,
+        "salinity": 34.45,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.59,
+        "salinity": 34.58,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.61,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 17.95,
+        "lon": 89.45,
+        "cycle": 40
+      },
+      {
+        "lat": 18.08,
+        "lon": 89.62,
+        "cycle": 41
+      },
+      {
+        "lat": 18.2,
+        "lon": 89.8,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903313",
+    "platform_id": "WMO-2903313",
+    "type": "argo",
+    "latitude": 10.5,
+    "longitude": 87.5,
+    "current_depth": 18.0,
+    "max_depth": 2000.0,
+    "temperature": 29.3,
+    "salinity": 33.8,
+    "chlorophyll": 0.24,
+    "region": "Central Bengal Abyssal Plain",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 55,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.3,
+        "salinity": 33.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.95,
+        "salinity": 33.85,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.61,
+        "salinity": 33.86,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.94,
+        "salinity": 33.88,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.29,
+        "salinity": 33.9,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.04,
+        "salinity": 33.94,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.57,
+        "salinity": 33.98,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.19,
+        "salinity": 34.01,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.69,
+        "salinity": 34.07,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.48,
+        "salinity": 34.12,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.84,
+        "salinity": 34.23,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.12,
+        "salinity": 34.35,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.16,
+        "salinity": 34.47,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.98,
+        "salinity": 34.55,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.38,
+        "salinity": 34.64,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 10.25,
+        "lon": 87.15,
+        "cycle": 40
+      },
+      {
+        "lat": 10.38,
+        "lon": 87.32,
+        "cycle": 41
+      },
+      {
+        "lat": 10.5,
+        "lon": 87.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903314",
+    "platform_id": "WMO-2903314",
+    "type": "argo",
+    "latitude": 7.5,
+    "longitude": 85.5,
+    "current_depth": 19.0,
+    "max_depth": 2000.0,
+    "temperature": 29.0,
+    "salinity": 34.2,
+    "chlorophyll": 0.28,
+    "region": "East Sri Lanka Current",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 56,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.0,
+        "salinity": 34.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.66,
+        "salinity": 34.25,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.32,
+        "salinity": 34.25,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.66,
+        "salinity": 34.26,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.01,
+        "salinity": 34.27,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.78,
+        "salinity": 34.29,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.33,
+        "salinity": 34.31,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.96,
+        "salinity": 34.33,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.49,
+        "salinity": 34.35,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.31,
+        "salinity": 34.37,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.71,
+        "salinity": 34.43,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.02,
+        "salinity": 34.51,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.08,
+        "salinity": 34.59,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.94,
+        "salinity": 34.61,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.36,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.59,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 7.25,
+        "lon": 85.15,
+        "cycle": 40
+      },
+      {
+        "lat": 7.38,
+        "lon": 85.32,
+        "cycle": 41
+      },
+      {
+        "lat": 7.5,
+        "lon": 85.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903315",
+    "platform_id": "WMO-2903315",
+    "type": "argo",
+    "latitude": 11.0,
+    "longitude": 93.5,
+    "current_depth": 5.0,
+    "max_depth": 2000.0,
+    "temperature": 29.4,
+    "salinity": 32.9,
+    "chlorophyll": 0.12,
+    "region": "Andaman Basin",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 57,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.4,
+        "salinity": 32.94,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.05,
+        "salinity": 32.96,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.71,
+        "salinity": 32.98,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.04,
+        "salinity": 33.02,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.38,
+        "salinity": 33.06,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.13,
+        "salinity": 33.14,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.65,
+        "salinity": 33.22,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.27,
+        "salinity": 33.3,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.75,
+        "salinity": 33.44,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.54,
+        "salinity": 33.57,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.88,
+        "salinity": 33.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.15,
+        "salinity": 34.01,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.18,
+        "salinity": 34.2,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.99,
+        "salinity": 34.4,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.39,
+        "salinity": 34.56,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.64,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.65,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 10.75,
+        "lon": 93.15,
+        "cycle": 40
+      },
+      {
+        "lat": 10.88,
+        "lon": 93.32,
+        "cycle": 41
+      },
+      {
+        "lat": 11.0,
+        "lon": 93.5,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903316",
+    "platform_id": "WMO-2903316",
+    "type": "argo",
+    "latitude": 7.8,
+    "longitude": 95.0,
+    "current_depth": 6.0,
+    "max_depth": 2000.0,
+    "temperature": 29.1,
+    "salinity": 33.2,
+    "chlorophyll": 0.16,
+    "region": "Great Nicobar Trench",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 58,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.1,
+        "salinity": 33.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.76,
+        "salinity": 33.26,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.42,
+        "salinity": 33.28,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.75,
+        "salinity": 33.31,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.11,
+        "salinity": 33.34,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.87,
+        "salinity": 33.4,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.41,
+        "salinity": 33.48,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.04,
+        "salinity": 33.54,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.56,
+        "salinity": 33.65,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.36,
+        "salinity": 33.75,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.75,
+        "salinity": 33.94,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.05,
+        "salinity": 34.12,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.11,
+        "salinity": 34.29,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.95,
+        "salinity": 34.45,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.37,
+        "salinity": 34.58,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.59,
+        "salinity": 34.65,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.65,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 7.55,
+        "lon": 94.65,
+        "cycle": 40
+      },
+      {
+        "lat": 7.68,
+        "lon": 94.82,
+        "cycle": 41
+      },
+      {
+        "lat": 7.8,
+        "lon": 95.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903317",
+    "platform_id": "WMO-2903317",
+    "type": "argo",
+    "latitude": 13.2,
+    "longitude": 94.2,
+    "current_depth": 7.0,
+    "max_depth": 2000.0,
+    "temperature": 29.5,
+    "salinity": 32.5,
+    "chlorophyll": 0.2,
+    "region": "North Andaman Shelf",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 59,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.5,
+        "salinity": 32.54,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.15,
+        "salinity": 32.57,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.81,
+        "salinity": 32.59,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.13,
+        "salinity": 32.64,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.47,
+        "salinity": 32.69,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.21,
+        "salinity": 32.78,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.73,
+        "salinity": 32.89,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.34,
+        "salinity": 32.99,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.82,
+        "salinity": 33.16,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.59,
+        "salinity": 33.32,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.92,
+        "salinity": 33.59,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.18,
+        "salinity": 33.85,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.21,
+        "salinity": 34.07,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 7.0,
+        "salinity": 34.33,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.39,
+        "salinity": 34.52,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.6,
+        "salinity": 34.62,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.63,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 12.95,
+        "lon": 93.85,
+        "cycle": 40
+      },
+      {
+        "lat": 13.08,
+        "lon": 94.02,
+        "cycle": 41
+      },
+      {
+        "lat": 13.2,
+        "lon": 94.2,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903318",
+    "platform_id": "WMO-2903318",
+    "type": "argo",
+    "latitude": 9.0,
+    "longitude": 97.0,
+    "current_depth": 8.0,
+    "max_depth": 2000.0,
+    "temperature": 29.6,
+    "salinity": 32.7,
+    "chlorophyll": 0.24,
+    "region": "Malacca Strait Gateway",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 60,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.6,
+        "salinity": 32.74,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 29.25,
+        "salinity": 32.76,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.9,
+        "salinity": 32.79,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 28.23,
+        "salinity": 32.83,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.57,
+        "salinity": 32.88,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 26.3,
+        "salinity": 32.96,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.81,
+        "salinity": 33.06,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 23.42,
+        "salinity": 33.15,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.88,
+        "salinity": 33.3,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.65,
+        "salinity": 33.44,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.97,
+        "salinity": 33.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.22,
+        "salinity": 33.93,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.23,
+        "salinity": 34.14,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 7.02,
+        "salinity": 34.36,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.4,
+        "salinity": 34.54,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.61,
+        "salinity": 34.63,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.19,
+        "salinity": 34.64,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.01,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 8.75,
+        "lon": 96.65,
+        "cycle": 40
+      },
+      {
+        "lat": 8.88,
+        "lon": 96.82,
+        "cycle": 41
+      },
+      {
+        "lat": 9.0,
+        "lon": 97.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903319",
+    "platform_id": "WMO-2903319",
+    "type": "argo",
+    "latitude": 2.0,
+    "longitude": 78.0,
+    "current_depth": 9.0,
+    "max_depth": 2000.0,
+    "temperature": 28.8,
+    "salinity": 34.8,
+    "chlorophyll": 0.28,
+    "region": "Equatorial Indian Ocean",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 61,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.8,
+        "salinity": 34.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.46,
+        "salinity": 34.84,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.13,
+        "salinity": 34.84,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.47,
+        "salinity": 34.84,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.83,
+        "salinity": 34.83,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.6,
+        "salinity": 34.83,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.16,
+        "salinity": 34.81,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.81,
+        "salinity": 34.8,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.36,
+        "salinity": 34.77,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.19,
+        "salinity": 34.75,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.62,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.95,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.03,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.92,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.35,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.58,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 1.75,
+        "lon": 77.65,
+        "cycle": 40
+      },
+      {
+        "lat": 1.88,
+        "lon": 77.82,
+        "cycle": 41
+      },
+      {
+        "lat": 2.0,
+        "lon": 78.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903320",
+    "platform_id": "WMO-2903320",
+    "type": "argo",
+    "latitude": -4.5,
+    "longitude": 65.0,
+    "current_depth": 10.0,
+    "max_depth": 2000.0,
+    "temperature": 27.5,
+    "salinity": 35.1,
+    "chlorophyll": 0.12,
+    "region": "Seychelles Chagos Thermocline Ridge",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 62,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 27.5,
+        "salinity": 35.14,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 27.18,
+        "salinity": 35.14,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 26.86,
+        "salinity": 35.13,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 26.24,
+        "salinity": 35.12,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 25.63,
+        "salinity": 35.11,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 24.47,
+        "salinity": 35.09,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.11,
+        "salinity": 35.06,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 21.83,
+        "salinity": 35.04,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.5,
+        "salinity": 34.98,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.45,
+        "salinity": 34.93,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.05,
+        "salinity": 34.87,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.53,
+        "salinity": 34.86,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.71,
+        "salinity": 34.87,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.75,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.27,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.54,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.16,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.99,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -4.75,
+        "lon": 64.65,
+        "cycle": 40
+      },
+      {
+        "lat": -4.62,
+        "lon": 64.82,
+        "cycle": 41
+      },
+      {
+        "lat": -4.5,
+        "lon": 65.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903321",
+    "platform_id": "WMO-2903321",
+    "type": "argo",
+    "latitude": -8.0,
+    "longitude": 75.0,
+    "current_depth": 11.0,
+    "max_depth": 2000.0,
+    "temperature": 26.8,
+    "salinity": 35.2,
+    "chlorophyll": 0.16,
+    "region": "Chagos Archipelago",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 63,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 26.8,
+        "salinity": 35.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 26.49,
+        "salinity": 35.23,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 26.18,
+        "salinity": 35.23,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 25.58,
+        "salinity": 35.22,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 24.99,
+        "salinity": 35.2,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 23.86,
+        "salinity": 35.18,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 22.54,
+        "salinity": 35.15,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 21.3,
+        "salinity": 35.12,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.04,
+        "salinity": 35.05,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.04,
+        "salinity": 34.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.75,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.29,
+        "salinity": 34.89,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.53,
+        "salinity": 34.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.67,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.22,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.52,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.15,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.99,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -8.25,
+        "lon": 74.65,
+        "cycle": 40
+      },
+      {
+        "lat": -8.12,
+        "lon": 74.82,
+        "cycle": 41
+      },
+      {
+        "lat": -8.0,
+        "lon": 75.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903322",
+    "platform_id": "WMO-2903322",
+    "type": "argo",
+    "latitude": -12.5,
+    "longitude": 60.0,
+    "current_depth": 12.0,
+    "max_depth": 2000.0,
+    "temperature": 25.5,
+    "salinity": 35.4,
+    "chlorophyll": 0.2,
+    "region": "Mascarene Basin",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 64,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 25.5,
+        "salinity": 35.44,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 25.21,
+        "salinity": 35.43,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 24.92,
+        "salinity": 35.42,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 24.35,
+        "salinity": 35.41,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 23.79,
+        "salinity": 35.39,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 22.73,
+        "salinity": 35.36,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 21.48,
+        "salinity": 35.32,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 20.31,
+        "salinity": 35.27,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 18.18,
+        "salinity": 35.19,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 16.3,
+        "salinity": 35.12,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.19,
+        "salinity": 35.01,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.87,
+        "salinity": 34.97,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.21,
+        "salinity": 34.96,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.51,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.14,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.48,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.13,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.98,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -12.75,
+        "lon": 59.65,
+        "cycle": 40
+      },
+      {
+        "lat": -12.62,
+        "lon": 59.82,
+        "cycle": 41
+      },
+      {
+        "lat": -12.5,
+        "lon": 60.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903323",
+    "platform_id": "WMO-2903323",
+    "type": "argo",
+    "latitude": -16.0,
+    "longitude": 72.0,
+    "current_depth": 13.0,
+    "max_depth": 2000.0,
+    "temperature": 24.2,
+    "salinity": 35.5,
+    "chlorophyll": 0.24,
+    "region": "Central Indian Basin",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 65,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 24.2,
+        "salinity": 35.54,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 23.92,
+        "salinity": 35.53,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 23.65,
+        "salinity": 35.52,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 23.12,
+        "salinity": 35.5,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 22.6,
+        "salinity": 35.48,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 21.6,
+        "salinity": 35.45,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 20.43,
+        "salinity": 35.4,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 19.33,
+        "salinity": 35.35,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 17.32,
+        "salinity": 35.26,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 15.55,
+        "salinity": 35.18,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.62,
+        "salinity": 35.06,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.44,
+        "salinity": 35.01,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.88,
+        "salinity": 34.99,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.34,
+        "salinity": 34.83,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.06,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.44,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.11,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.97,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -16.25,
+        "lon": 71.65,
+        "cycle": 40
+      },
+      {
+        "lat": -16.12,
+        "lon": 71.82,
+        "cycle": 41
+      },
+      {
+        "lat": -16.0,
+        "lon": 72.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903324",
+    "platform_id": "WMO-2903324",
+    "type": "argo",
+    "latitude": -5.0,
+    "longitude": 88.0,
+    "current_depth": 14.0,
+    "max_depth": 2000.0,
+    "temperature": 27.8,
+    "salinity": 34.9,
+    "chlorophyll": 0.28,
+    "region": "Ninetyeast Ridge North",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 66,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 27.8,
+        "salinity": 34.94,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 27.47,
+        "salinity": 34.94,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.15,
+        "salinity": 34.94,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 26.52,
+        "salinity": 34.93,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 25.91,
+        "salinity": 34.93,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 24.73,
+        "salinity": 34.91,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.35,
+        "salinity": 34.9,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.06,
+        "salinity": 34.88,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.7,
+        "salinity": 34.84,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.62,
+        "salinity": 34.81,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.18,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.62,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.78,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.79,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.29,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.55,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.16,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -5.25,
+        "lon": 87.65,
+        "cycle": 40
+      },
+      {
+        "lat": -5.12,
+        "lon": 87.82,
+        "cycle": 41
+      },
+      {
+        "lat": -5.0,
+        "lon": 88.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903325",
+    "platform_id": "WMO-2903325",
+    "type": "argo",
+    "latitude": -10.0,
+    "longitude": 92.0,
+    "current_depth": 15.0,
+    "max_depth": 2000.0,
+    "temperature": 26.2,
+    "salinity": 35.2,
+    "chlorophyll": 0.12,
+    "region": "Ninetyeast Ridge Central",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 67,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 26.2,
+        "salinity": 35.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 25.9,
+        "salinity": 35.23,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 25.6,
+        "salinity": 35.23,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 25.01,
+        "salinity": 35.22,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 24.44,
+        "salinity": 35.2,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 23.34,
+        "salinity": 35.18,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 22.05,
+        "salinity": 35.15,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 20.84,
+        "salinity": 35.12,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 18.64,
+        "salinity": 35.05,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 16.7,
+        "salinity": 34.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.49,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.1,
+        "salinity": 34.89,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.38,
+        "salinity": 34.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.59,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.19,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.5,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.14,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.98,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -10.25,
+        "lon": 91.65,
+        "cycle": 40
+      },
+      {
+        "lat": -10.12,
+        "lon": 91.82,
+        "cycle": 41
+      },
+      {
+        "lat": -10.0,
+        "lon": 92.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903326",
+    "platform_id": "WMO-2903326",
+    "type": "argo",
+    "latitude": -15.0,
+    "longitude": 85.0,
+    "current_depth": 16.0,
+    "max_depth": 2000.0,
+    "temperature": 24.8,
+    "salinity": 35.4,
+    "chlorophyll": 0.16,
+    "region": "Mid-Indian Ocean",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 68,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 24.8,
+        "salinity": 35.44,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 24.52,
+        "salinity": 35.43,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 24.23,
+        "salinity": 35.42,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 23.68,
+        "salinity": 35.41,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 23.15,
+        "salinity": 35.39,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 22.12,
+        "salinity": 35.36,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 20.92,
+        "salinity": 35.32,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 19.78,
+        "salinity": 35.27,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 17.72,
+        "salinity": 35.19,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 15.9,
+        "salinity": 35.12,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.88,
+        "salinity": 35.01,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.64,
+        "salinity": 34.97,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.03,
+        "salinity": 34.96,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.42,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.1,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.46,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.12,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.97,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -15.25,
+        "lon": 84.65,
+        "cycle": 40
+      },
+      {
+        "lat": -15.12,
+        "lon": 84.82,
+        "cycle": 41
+      },
+      {
+        "lat": -15.0,
+        "lon": 85.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903327",
+    "platform_id": "WMO-2903327",
+    "type": "argo",
+    "latitude": -2.0,
+    "longitude": 60.0,
+    "current_depth": 17.0,
+    "max_depth": 2000.0,
+    "temperature": 27.9,
+    "salinity": 35.2,
+    "chlorophyll": 0.2,
+    "region": "Somali Current Southern Arc",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 69,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 27.9,
+        "salinity": 35.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 27.57,
+        "salinity": 35.23,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.25,
+        "salinity": 35.23,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 26.62,
+        "salinity": 35.22,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.0,
+        "salinity": 35.2,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 24.82,
+        "salinity": 35.18,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.43,
+        "salinity": 35.15,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.13,
+        "salinity": 35.12,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.76,
+        "salinity": 35.05,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.68,
+        "salinity": 34.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.23,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.66,
+        "salinity": 34.89,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.81,
+        "salinity": 34.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.8,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.29,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.55,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.17,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -2.25,
+        "lon": 59.65,
+        "cycle": 40
+      },
+      {
+        "lat": -2.12,
+        "lon": 59.82,
+        "cycle": 41
+      },
+      {
+        "lat": -2.0,
+        "lon": 60.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903328",
+    "platform_id": "WMO-2903328",
+    "type": "argo",
+    "latitude": -6.5,
+    "longitude": 52.0,
+    "current_depth": 18.0,
+    "max_depth": 2000.0,
+    "temperature": 27.2,
+    "salinity": 35.3,
+    "chlorophyll": 0.24,
+    "region": "Amirante Trench",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 70,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 27.2,
+        "salinity": 35.34,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 26.88,
+        "salinity": 35.33,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 26.57,
+        "salinity": 35.33,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 25.96,
+        "salinity": 35.31,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 25.36,
+        "salinity": 35.3,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 24.21,
+        "salinity": 35.27,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 22.86,
+        "salinity": 35.23,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 21.6,
+        "salinity": 35.19,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.3,
+        "salinity": 35.12,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.27,
+        "salinity": 35.06,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.92,
+        "salinity": 34.96,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.43,
+        "salinity": 34.93,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.63,
+        "salinity": 34.93,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.72,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.25,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.53,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.15,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.99,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -6.75,
+        "lon": 51.65,
+        "cycle": 40
+      },
+      {
+        "lat": -6.62,
+        "lon": 51.82,
+        "cycle": 41
+      },
+      {
+        "lat": -6.5,
+        "lon": 52.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903329",
+    "platform_id": "WMO-2903329",
+    "type": "argo",
+    "latitude": -25.0,
+    "longitude": 48.0,
+    "current_depth": 19.0,
+    "max_depth": 2000.0,
+    "temperature": 21.5,
+    "salinity": 35.6,
+    "chlorophyll": 0.28,
+    "region": "Madagascar Ridge",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 71,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 21.5,
+        "salinity": 35.64,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 21.26,
+        "salinity": 35.63,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 21.03,
+        "salinity": 35.62,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 20.56,
+        "salinity": 35.6,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 20.11,
+        "salinity": 35.58,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 19.25,
+        "salinity": 35.54,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 18.24,
+        "salinity": 35.48,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 17.28,
+        "salinity": 35.43,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 15.54,
+        "salinity": 35.33,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 14.0,
+        "salinity": 35.24,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 11.45,
+        "salinity": 35.11,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 9.55,
+        "salinity": 35.05,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.21,
+        "salinity": 35.02,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.01,
+        "salinity": 34.85,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.9,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.36,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.07,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.95,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.86,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -25.25,
+        "lon": 47.65,
+        "cycle": 40
+      },
+      {
+        "lat": -25.12,
+        "lon": 47.82,
+        "cycle": 41
+      },
+      {
+        "lat": -25.0,
+        "lon": 48.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903330",
+    "platform_id": "WMO-2903330",
+    "type": "argo",
+    "latitude": -30.0,
+    "longitude": 38.0,
+    "current_depth": 5.0,
+    "max_depth": 2000.0,
+    "temperature": 18.2,
+    "salinity": 35.5,
+    "chlorophyll": 0.12,
+    "region": "Agulhas Return Current",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 42,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 18.2,
+        "salinity": 35.54,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 18.01,
+        "salinity": 35.53,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 17.82,
+        "salinity": 35.52,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 17.44,
+        "salinity": 35.5,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 17.08,
+        "salinity": 35.48,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 16.38,
+        "salinity": 35.45,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 15.56,
+        "salinity": 35.4,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 14.78,
+        "salinity": 35.35,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 13.37,
+        "salinity": 35.26,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 12.11,
+        "salinity": 35.18,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 10.01,
+        "salinity": 35.06,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 8.46,
+        "salinity": 35.01,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 7.39,
+        "salinity": 34.99,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 5.6,
+        "salinity": 34.83,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.69,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.25,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.02,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.92,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.85,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -30.25,
+        "lon": 37.65,
+        "cycle": 40
+      },
+      {
+        "lat": -30.12,
+        "lon": 37.82,
+        "cycle": 41
+      },
+      {
+        "lat": -30.0,
+        "lon": 38.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903331",
+    "platform_id": "WMO-2903331",
+    "type": "argo",
+    "latitude": -35.0,
+    "longitude": 55.0,
+    "current_depth": 6.0,
+    "max_depth": 2000.0,
+    "temperature": 14.5,
+    "salinity": 35.2,
+    "chlorophyll": 0.16,
+    "region": "Southwest Indian Ridge",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 43,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 14.5,
+        "salinity": 35.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 14.36,
+        "salinity": 35.23,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 14.22,
+        "salinity": 35.23,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 13.94,
+        "salinity": 35.22,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 13.67,
+        "salinity": 35.2,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 13.16,
+        "salinity": 35.18,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 12.55,
+        "salinity": 35.15,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 11.98,
+        "salinity": 35.12,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 10.93,
+        "salinity": 35.05,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 9.99,
+        "salinity": 34.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 8.4,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 7.25,
+        "salinity": 34.89,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 6.47,
+        "salinity": 34.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 5.14,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.46,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.14,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 3.96,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.89,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.83,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -35.25,
+        "lon": 54.65,
+        "cycle": 40
+      },
+      {
+        "lat": -35.12,
+        "lon": 54.82,
+        "cycle": 41
+      },
+      {
+        "lat": -35.0,
+        "lon": 55.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903332",
+    "platform_id": "WMO-2903332",
+    "type": "argo",
+    "latitude": -40.0,
+    "longitude": 70.0,
+    "current_depth": 7.0,
+    "max_depth": 2000.0,
+    "temperature": 9.8,
+    "salinity": 34.6,
+    "chlorophyll": 0.2,
+    "region": "Kerguelen Plateau Approaches",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 44,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 9.8,
+        "salinity": 34.64,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 9.72,
+        "salinity": 34.64,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 9.65,
+        "salinity": 34.64,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 9.5,
+        "salinity": 34.64,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 9.35,
+        "salinity": 34.65,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 9.07,
+        "salinity": 34.65,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 8.74,
+        "salinity": 34.65,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 8.42,
+        "salinity": 34.64,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 7.83,
+        "salinity": 34.63,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 7.29,
+        "salinity": 34.62,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 6.36,
+        "salinity": 34.62,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 5.7,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 5.29,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 4.55,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.17,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 3.99,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 3.89,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.86,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.81,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -40.25,
+        "lon": 69.65,
+        "cycle": 40
+      },
+      {
+        "lat": -40.12,
+        "lon": 69.82,
+        "cycle": 41
+      },
+      {
+        "lat": -40.0,
+        "lon": 70.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903333",
+    "platform_id": "WMO-2903333",
+    "type": "argo",
+    "latitude": -45.0,
+    "longitude": 80.0,
+    "current_depth": 8.0,
+    "max_depth": 2000.0,
+    "temperature": 5.2,
+    "salinity": 34.1,
+    "chlorophyll": 0.24,
+    "region": "Antarctic Circumpolar Current",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 45,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 5.2,
+        "salinity": 34.14,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 5.19,
+        "salinity": 34.15,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 5.17,
+        "salinity": 34.15,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 5.14,
+        "salinity": 34.17,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 5.12,
+        "salinity": 34.18,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 5.07,
+        "salinity": 34.2,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 5.0,
+        "salinity": 34.23,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 4.94,
+        "salinity": 34.25,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 4.8,
+        "salinity": 34.28,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 4.65,
+        "salinity": 34.31,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 4.36,
+        "salinity": 34.38,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 4.18,
+        "salinity": 34.47,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 4.15,
+        "salinity": 34.56,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 3.98,
+        "salinity": 34.6,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 3.88,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 3.85,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 3.81,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.82,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.79,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -45.25,
+        "lon": 79.65,
+        "cycle": 40
+      },
+      {
+        "lat": -45.12,
+        "lon": 79.82,
+        "cycle": 41
+      },
+      {
+        "lat": -45.0,
+        "lon": 80.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903334",
+    "platform_id": "WMO-2903334",
+    "type": "argo",
+    "latitude": 25.0,
+    "longitude": -45.0,
+    "current_depth": 9.0,
+    "max_depth": 2000.0,
+    "temperature": 24.5,
+    "salinity": 36.8,
+    "chlorophyll": 0.28,
+    "region": "North Atlantic Gyre",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 46,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 24.5,
+        "salinity": 36.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 24.22,
+        "salinity": 36.82,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 23.94,
+        "salinity": 36.79,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 23.4,
+        "salinity": 36.74,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 22.87,
+        "salinity": 36.69,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 21.86,
+        "salinity": 36.6,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 20.67,
+        "salinity": 36.49,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 19.56,
+        "salinity": 36.38,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 17.52,
+        "salinity": 36.17,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 15.72,
+        "salinity": 35.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.75,
+        "salinity": 35.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.54,
+        "salinity": 35.51,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.96,
+        "salinity": 35.38,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.38,
+        "salinity": 35.05,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.08,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.45,
+        "salinity": 34.84,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.11,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.97,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 24.75,
+        "lon": -45.35,
+        "cycle": 40
+      },
+      {
+        "lat": 24.88,
+        "lon": -45.18,
+        "cycle": 41
+      },
+      {
+        "lat": 25.0,
+        "lon": -45.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903335",
+    "platform_id": "WMO-2903335",
+    "type": "argo",
+    "latitude": 15.0,
+    "longitude": -35.0,
+    "current_depth": 10.0,
+    "max_depth": 2000.0,
+    "temperature": 27.2,
+    "salinity": 36.0,
+    "chlorophyll": 0.12,
+    "region": "Tropical North Atlantic",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 47,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 27.2,
+        "salinity": 36.04,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 26.88,
+        "salinity": 36.02,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 26.57,
+        "salinity": 36.01,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 25.96,
+        "salinity": 35.98,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 25.36,
+        "salinity": 35.95,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 24.21,
+        "salinity": 35.89,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 22.86,
+        "salinity": 35.82,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 21.6,
+        "salinity": 35.75,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.3,
+        "salinity": 35.61,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.27,
+        "salinity": 35.49,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.92,
+        "salinity": 35.31,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.43,
+        "salinity": 35.2,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.63,
+        "salinity": 35.14,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.72,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.25,
+        "salinity": 34.84,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.53,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.15,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.99,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 14.75,
+        "lon": -35.35,
+        "cycle": 40
+      },
+      {
+        "lat": 14.88,
+        "lon": -35.18,
+        "cycle": 41
+      },
+      {
+        "lat": 15.0,
+        "lon": -35.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903336",
+    "platform_id": "WMO-2903336",
+    "type": "argo",
+    "latitude": -15.0,
+    "longitude": -10.0,
+    "current_depth": 11.0,
+    "max_depth": 2000.0,
+    "temperature": 23.5,
+    "salinity": 35.8,
+    "chlorophyll": 0.16,
+    "region": "South Atlantic Subtropical",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 48,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 23.5,
+        "salinity": 35.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 23.23,
+        "salinity": 35.83,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 22.97,
+        "salinity": 35.81,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 22.46,
+        "salinity": 35.79,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 21.95,
+        "salinity": 35.76,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 20.99,
+        "salinity": 35.71,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 19.86,
+        "salinity": 35.65,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 18.8,
+        "salinity": 35.59,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 16.86,
+        "salinity": 35.47,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 15.15,
+        "salinity": 35.37,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.32,
+        "salinity": 35.21,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.21,
+        "salinity": 35.13,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.71,
+        "salinity": 35.08,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.26,
+        "salinity": 34.88,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.02,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.42,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.1,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.96,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -15.25,
+        "lon": -10.35,
+        "cycle": 40
+      },
+      {
+        "lat": -15.12,
+        "lon": -10.18,
+        "cycle": 41
+      },
+      {
+        "lat": -15.0,
+        "lon": -10.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903337",
+    "platform_id": "WMO-2903337",
+    "type": "argo",
+    "latitude": 32.0,
+    "longitude": -140.0,
+    "current_depth": 12.0,
+    "max_depth": 2000.0,
+    "temperature": 22.0,
+    "salinity": 35.2,
+    "chlorophyll": 0.2,
+    "region": "North Pacific Subtropical",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 49,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 22.0,
+        "salinity": 35.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 21.75,
+        "salinity": 35.23,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 21.51,
+        "salinity": 35.23,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 21.04,
+        "salinity": 35.22,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 20.57,
+        "salinity": 35.2,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 19.69,
+        "salinity": 35.18,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 18.64,
+        "salinity": 35.15,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 17.66,
+        "salinity": 35.12,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 15.87,
+        "salinity": 35.05,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 14.29,
+        "salinity": 34.99,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 11.66,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 9.71,
+        "salinity": 34.89,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.34,
+        "salinity": 34.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.07,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.93,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.37,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.07,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.95,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.86,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 31.75,
+        "lon": -140.35,
+        "cycle": 40
+      },
+      {
+        "lat": 31.88,
+        "lon": -140.18,
+        "cycle": 41
+      },
+      {
+        "lat": 32.0,
+        "lon": -140.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903338",
+    "platform_id": "WMO-2903338",
+    "type": "argo",
+    "latitude": 12.0,
+    "longitude": -160.0,
+    "current_depth": 13.0,
+    "max_depth": 2000.0,
+    "temperature": 28.5,
+    "salinity": 34.8,
+    "chlorophyll": 0.24,
+    "region": "Central Tropical Pacific",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 50,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.5,
+        "salinity": 34.84,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.16,
+        "salinity": 34.84,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.83,
+        "salinity": 34.84,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.18,
+        "salinity": 34.84,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.55,
+        "salinity": 34.83,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.34,
+        "salinity": 34.83,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.92,
+        "salinity": 34.81,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.59,
+        "salinity": 34.8,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.16,
+        "salinity": 34.77,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.02,
+        "salinity": 34.75,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.49,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.85,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.96,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.88,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.33,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.57,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.17,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 11.75,
+        "lon": -160.35,
+        "cycle": 40
+      },
+      {
+        "lat": 11.88,
+        "lon": -160.18,
+        "cycle": 41
+      },
+      {
+        "lat": 12.0,
+        "lon": -160.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903339",
+    "platform_id": "WMO-2903339",
+    "type": "argo",
+    "latitude": -18.0,
+    "longitude": -120.0,
+    "current_depth": 14.0,
+    "max_depth": 2000.0,
+    "temperature": 25.2,
+    "salinity": 35.6,
+    "chlorophyll": 0.28,
+    "region": "South Pacific Gyre",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 51,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 25.2,
+        "salinity": 35.64,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 24.91,
+        "salinity": 35.63,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 24.62,
+        "salinity": 35.62,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 24.06,
+        "salinity": 35.6,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 23.52,
+        "salinity": 35.58,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 22.47,
+        "salinity": 35.54,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 21.24,
+        "salinity": 35.48,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 20.09,
+        "salinity": 35.43,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 17.98,
+        "salinity": 35.33,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 16.13,
+        "salinity": 35.24,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.05,
+        "salinity": 35.11,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.77,
+        "salinity": 35.05,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.13,
+        "salinity": 35.02,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.47,
+        "salinity": 34.85,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.13,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.47,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.12,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.97,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -18.25,
+        "lon": -120.35,
+        "cycle": 40
+      },
+      {
+        "lat": -18.12,
+        "lon": -120.18,
+        "cycle": 41
+      },
+      {
+        "lat": -18.0,
+        "lon": -120.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903340",
+    "platform_id": "WMO-2903340",
+    "type": "argo",
+    "latitude": 0.0,
+    "longitude": -140.0,
+    "current_depth": 15.0,
+    "max_depth": 2000.0,
+    "temperature": 26.5,
+    "salinity": 35.1,
+    "chlorophyll": 0.12,
+    "region": "Equatorial Pacific Cold Tongue",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 52,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 26.5,
+        "salinity": 35.14,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 26.19,
+        "salinity": 35.14,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 25.89,
+        "salinity": 35.13,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 25.29,
+        "salinity": 35.12,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 24.71,
+        "salinity": 35.11,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 23.6,
+        "salinity": 35.09,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 22.3,
+        "salinity": 35.06,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 21.07,
+        "salinity": 35.04,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 18.84,
+        "salinity": 34.98,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 16.87,
+        "salinity": 34.93,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 13.62,
+        "salinity": 34.87,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.2,
+        "salinity": 34.86,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.46,
+        "salinity": 34.87,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.63,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.21,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.51,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.14,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.99,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -0.25,
+        "lon": -140.35,
+        "cycle": 40
+      },
+      {
+        "lat": -0.12,
+        "lon": -140.18,
+        "cycle": 41
+      },
+      {
+        "lat": 0.0,
+        "lon": -140.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903341",
+    "platform_id": "WMO-2903341",
+    "type": "argo",
+    "latitude": 38.0,
+    "longitude": -70.0,
+    "current_depth": 16.0,
+    "max_depth": 2000.0,
+    "temperature": 21.0,
+    "salinity": 36.2,
+    "chlorophyll": 0.16,
+    "region": "Gulf Stream Meander",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 53,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 21.0,
+        "salinity": 36.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 20.77,
+        "salinity": 36.22,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 20.54,
+        "salinity": 36.2,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 20.09,
+        "salinity": 36.17,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 19.65,
+        "salinity": 36.14,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 18.82,
+        "salinity": 36.07,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 17.83,
+        "salinity": 35.98,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 16.9,
+        "salinity": 35.9,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 15.22,
+        "salinity": 35.75,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 13.72,
+        "salinity": 35.62,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 11.23,
+        "salinity": 35.41,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 9.39,
+        "salinity": 35.28,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.09,
+        "salinity": 35.2,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 5.95,
+        "salinity": 34.95,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.86,
+        "salinity": 34.86,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.34,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.06,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.94,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.86,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 37.75,
+        "lon": -70.35,
+        "cycle": 40
+      },
+      {
+        "lat": 37.88,
+        "lon": -70.18,
+        "cycle": 41
+      },
+      {
+        "lat": 38.0,
+        "lon": -70.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903342",
+    "platform_id": "WMO-2903342",
+    "type": "argo",
+    "latitude": -32.0,
+    "longitude": 155.0,
+    "current_depth": 17.0,
+    "max_depth": 2000.0,
+    "temperature": 19.5,
+    "salinity": 35.4,
+    "chlorophyll": 0.2,
+    "region": "East Australian Current",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 54,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 19.5,
+        "salinity": 35.44,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 19.29,
+        "salinity": 35.43,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 19.08,
+        "salinity": 35.42,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 18.67,
+        "salinity": 35.41,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 18.27,
+        "salinity": 35.39,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 17.51,
+        "salinity": 35.36,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 16.61,
+        "salinity": 35.32,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 15.77,
+        "salinity": 35.27,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 14.23,
+        "salinity": 35.19,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 12.86,
+        "salinity": 35.12,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 10.58,
+        "salinity": 35.01,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 8.89,
+        "salinity": 34.97,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 7.71,
+        "salinity": 34.96,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 5.76,
+        "salinity": 34.82,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.77,
+        "salinity": 34.79,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.29,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.04,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.93,
+        "salinity": 34.76,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.85,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -32.25,
+        "lon": 154.65,
+        "cycle": 40
+      },
+      {
+        "lat": -32.12,
+        "lon": 154.82,
+        "cycle": 41
+      },
+      {
+        "lat": -32.0,
+        "lon": 155.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903343",
+    "platform_id": "WMO-2903343",
+    "type": "argo",
+    "latitude": 28.0,
+    "longitude": 135.0,
+    "current_depth": 18.0,
+    "max_depth": 2000.0,
+    "temperature": 23.8,
+    "salinity": 34.7,
+    "chlorophyll": 0.24,
+    "region": "Kuroshio Extension",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 55,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 23.8,
+        "salinity": 34.74,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 23.53,
+        "salinity": 34.74,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 23.26,
+        "salinity": 34.74,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 22.74,
+        "salinity": 34.74,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 22.23,
+        "salinity": 34.74,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 21.25,
+        "salinity": 34.74,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 20.1,
+        "salinity": 34.73,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 19.03,
+        "salinity": 34.72,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 17.06,
+        "salinity": 34.7,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 15.32,
+        "salinity": 34.68,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.45,
+        "salinity": 34.67,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.31,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.78,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.29,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.04,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.43,
+        "salinity": 34.73,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.1,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.96,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 27.75,
+        "lon": 134.65,
+        "cycle": 40
+      },
+      {
+        "lat": 27.88,
+        "lon": 134.82,
+        "cycle": 41
+      },
+      {
+        "lat": 28.0,
+        "lon": 135.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903344",
+    "platform_id": "WMO-2903344",
+    "type": "argo",
+    "latitude": 5.0,
+    "longitude": 125.0,
+    "current_depth": 19.0,
+    "max_depth": 2000.0,
+    "temperature": 29.0,
+    "salinity": 34.5,
+    "chlorophyll": 0.28,
+    "region": "Mindanao Current",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 56,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 29.0,
+        "salinity": 34.54,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.66,
+        "salinity": 34.54,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.32,
+        "salinity": 34.54,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.66,
+        "salinity": 34.55,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 27.01,
+        "salinity": 34.55,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.78,
+        "salinity": 34.56,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.33,
+        "salinity": 34.56,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.96,
+        "salinity": 34.56,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.49,
+        "salinity": 34.56,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.31,
+        "salinity": 34.56,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.71,
+        "salinity": 34.57,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 12.02,
+        "salinity": 34.62,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.08,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.94,
+        "salinity": 34.66,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.36,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.59,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 4.75,
+        "lon": 124.65,
+        "cycle": 40
+      },
+      {
+        "lat": 4.88,
+        "lon": 124.82,
+        "cycle": 41
+      },
+      {
+        "lat": 5.0,
+        "lon": 125.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903345",
+    "platform_id": "WMO-2903345",
+    "type": "argo",
+    "latitude": -5.0,
+    "longitude": 115.0,
+    "current_depth": 5.0,
+    "max_depth": 2000.0,
+    "temperature": 28.8,
+    "salinity": 34.2,
+    "chlorophyll": 0.12,
+    "region": "Indonesian Throughflow",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 57,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.8,
+        "salinity": 34.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 28.46,
+        "salinity": 34.25,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 28.13,
+        "salinity": 34.25,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 27.47,
+        "salinity": 34.26,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.83,
+        "salinity": 34.27,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.6,
+        "salinity": 34.29,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 24.16,
+        "salinity": 34.31,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.81,
+        "salinity": 34.33,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 20.36,
+        "salinity": 34.35,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 18.19,
+        "salinity": 34.37,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.62,
+        "salinity": 34.43,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.95,
+        "salinity": 34.51,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 10.03,
+        "salinity": 34.59,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.92,
+        "salinity": 34.61,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.35,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.58,
+        "salinity": 34.7,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.18,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.75,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.89,
+        "salinity": 34.68,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -5.25,
+        "lon": 114.65,
+        "cycle": 40
+      },
+      {
+        "lat": -5.12,
+        "lon": 114.82,
+        "cycle": 41
+      },
+      {
+        "lat": -5.0,
+        "lon": 115.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903346",
+    "platform_id": "WMO-2903346",
+    "type": "argo",
+    "latitude": -22.0,
+    "longitude": 110.0,
+    "current_depth": 6.0,
+    "max_depth": 2000.0,
+    "temperature": 22.8,
+    "salinity": 35.6,
+    "chlorophyll": 0.16,
+    "region": "Leeuwin Current Offshore",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 58,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 22.8,
+        "salinity": 35.64,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 22.54,
+        "salinity": 35.63,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 22.29,
+        "salinity": 35.62,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 21.79,
+        "salinity": 35.6,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 21.31,
+        "salinity": 35.58,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 20.38,
+        "salinity": 35.54,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 19.29,
+        "salinity": 35.48,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 18.27,
+        "salinity": 35.43,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 16.4,
+        "salinity": 35.33,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 14.75,
+        "salinity": 35.24,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.01,
+        "salinity": 35.11,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 9.98,
+        "salinity": 35.05,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.54,
+        "salinity": 35.02,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.17,
+        "salinity": 34.85,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 4.98,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.4,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.09,
+        "salinity": 34.72,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.96,
+        "salinity": 34.77,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.86,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": -22.25,
+        "lon": 109.65,
+        "cycle": 40
+      },
+      {
+        "lat": -22.12,
+        "lon": 109.82,
+        "cycle": 41
+      },
+      {
+        "lat": -22.0,
+        "lon": 110.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903347",
+    "platform_id": "WMO-2903347",
+    "type": "argo",
+    "latitude": 18.0,
+    "longitude": -65.0,
+    "current_depth": 7.0,
+    "max_depth": 2000.0,
+    "temperature": 28.2,
+    "salinity": 36.2,
+    "chlorophyll": 0.2,
+    "region": "Caribbean Sea",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 59,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 28.2,
+        "salinity": 36.24,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 27.87,
+        "salinity": 36.22,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 27.54,
+        "salinity": 36.2,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 26.9,
+        "salinity": 36.17,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 26.28,
+        "salinity": 36.14,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 25.08,
+        "salinity": 36.07,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 23.68,
+        "salinity": 35.98,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 22.36,
+        "salinity": 35.9,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 19.96,
+        "salinity": 35.75,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 17.85,
+        "salinity": 35.62,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 14.36,
+        "salinity": 35.41,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 11.76,
+        "salinity": 35.28,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 9.88,
+        "salinity": 35.2,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.84,
+        "salinity": 34.95,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.31,
+        "salinity": 34.86,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.56,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.17,
+        "salinity": 34.74,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 4.0,
+        "salinity": 34.78,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.88,
+        "salinity": 34.69,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 17.75,
+        "lon": -65.35,
+        "cycle": 40
+      },
+      {
+        "lat": 17.88,
+        "lon": -65.18,
+        "cycle": 41
+      },
+      {
+        "lat": 18.0,
+        "lon": -65.0,
+        "cycle": 42
+      }
+    ]
+  },
+  {
+    "id": "ARGO_2903348",
+    "platform_id": "WMO-2903348",
+    "type": "argo",
+    "latitude": 35.0,
+    "longitude": 15.0,
+    "current_depth": 8.0,
+    "max_depth": 2000.0,
+    "temperature": 24.0,
+    "salinity": 38.5,
+    "chlorophyll": 0.24,
+    "region": "Mediterranean Ionian Sea",
+    "deployment_date": "2024-03-15",
+    "cycle_number": 60,
+    "status": "OPERATIONAL",
+    "qc_status": "qc_passed_argo_gdac",
+    "profile": [
+      {
+        "depth": 0.0,
+        "temperature": 24.0,
+        "salinity": 38.54,
+        "chlorophyll": 0.209,
+        "qc_flag": 1
+      },
+      {
+        "depth": 5.0,
+        "temperature": 23.73,
+        "salinity": 38.5,
+        "chlorophyll": 0.256,
+        "qc_flag": 1
+      },
+      {
+        "depth": 10.0,
+        "temperature": 23.46,
+        "salinity": 38.45,
+        "chlorophyll": 0.304,
+        "qc_flag": 1
+      },
+      {
+        "depth": 20.0,
+        "temperature": 22.93,
+        "salinity": 38.36,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 30.0,
+        "temperature": 22.41,
+        "salinity": 38.28,
+        "chlorophyll": 0.443,
+        "qc_flag": 1
+      },
+      {
+        "depth": 50.0,
+        "temperature": 21.43,
+        "salinity": 38.11,
+        "chlorophyll": 0.391,
+        "qc_flag": 1
+      },
+      {
+        "depth": 75.0,
+        "temperature": 20.27,
+        "salinity": 37.91,
+        "chlorophyll": 0.166,
+        "qc_flag": 1
+      },
+      {
+        "depth": 100.0,
+        "temperature": 19.18,
+        "salinity": 37.72,
+        "chlorophyll": 0.032,
+        "qc_flag": 1
+      },
+      {
+        "depth": 150.0,
+        "temperature": 17.19,
+        "salinity": 37.36,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 200.0,
+        "temperature": 15.44,
+        "salinity": 37.04,
+        "chlorophyll": 0.0,
+        "qc_flag": 1
+      },
+      {
+        "depth": 300.0,
+        "temperature": 12.53,
+        "salinity": 36.53,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 400.0,
+        "temperature": 10.37,
+        "salinity": 36.17,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 500.0,
+        "temperature": 8.83,
+        "salinity": 35.9,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 750.0,
+        "temperature": 6.32,
+        "salinity": 35.34,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1000.0,
+        "temperature": 5.05,
+        "salinity": 35.07,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1250.0,
+        "temperature": 4.43,
+        "salinity": 34.92,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1500.0,
+        "temperature": 4.11,
+        "salinity": 34.8,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 1750.0,
+        "temperature": 3.97,
+        "salinity": 34.81,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      },
+      {
+        "depth": 2000.0,
+        "temperature": 3.87,
+        "salinity": 34.71,
+        "chlorophyll": 0.005,
+        "qc_flag": 1
+      }
+    ],
+    "trajectory_points": [
+      {
+        "lat": 34.75,
+        "lon": 14.65,
+        "cycle": 40
+      },
+      {
+        "lat": 34.88,
+        "lon": 14.82,
+        "cycle": 41
+      },
+      {
+        "lat": 35.0,
+        "lon": 15.0,
+        "cycle": 42
+      }
+    ]
+  }
+]

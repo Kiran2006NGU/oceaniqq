@@ -1,0 +1,17 @@
+{
+  "short_name": "OceanIQ",
+  "name": "OceanIQ — Indian Ocean 3D Intelligence Platform",
+  "description": "Interactive 3D visualization and validation of numerical ocean models and in-situ observations",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#010610",
+  "theme_color": "#00b4d8",
+  "display": "standalone",
+  "orientation": "any"
+}

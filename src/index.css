@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+/* ============================================================
+   OCEAN INTELLIGENCE PLATFORM — DESIGN SYSTEM
+   SIH 26067 | INCOIS / MoES Scientific Visualization Platform
+   ============================================================ */
+
+@theme {
+  /* Typography — Calibri across the platform */
+  --font-sans: "Calibri", "Carlito", "Candara", "Segoe UI", Arial, sans-serif;
+  --font-mono: "Calibri", "Carlito", "Candara", "Segoe UI", Arial, sans-serif;
+
+  /* Ocean palette */
+  --color-ocean-950: #020b18;
+  --color-ocean-900: #050f1f;
+  --color-ocean-800: #071525;
+  --color-ocean-700: #0c2040;
+  --color-ocean-600: #0f2d57;
+  --color-ocean-500: #1a4a80;
+  --color-ocean-400: #2b6cb0;
+  --color-ocean-300: #4299e1;
+  --color-ocean-200: #63b3ed;
+  --color-ocean-100: #bee3f8;
+  --color-ocean-50: #ebf8ff;
+
+  /* Accent — scientific teal/cyan */
+  --color-accent-500: #00b4d8;
+  --color-accent-400: #00caf0;
+  --color-accent-300: #48cae4;
+  --color-accent-200: #90e0ef;
+  --color-accent-100: #caf0f8;
+
+  /* Default Surface layers (Dark Ocean) */
+  --color-surface-base: #010610;
+  --color-surface-raised: #030d1a;
+  --color-surface-overlay: #071525;
+  --color-surface-popover: #0c2040;
+
+  /* Semantic UI colours */
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-subtle: rgba(255, 255, 255, 0.05);
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #020b18;
+
+  /* Status colours */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #06b6d4;
+
+  /* Variable colour scale */
+  --color-temp-cold: #0077b6;
+  --color-temp-warm: #e63946;
+  --color-chl-low: #264653;
+  --color-chl-high: #2a9d8f;
+  --color-sal-low: #7b2d8b;
+  --color-sal-high: #00b4d8;
+}
+
+/* ── MULTI-THEME OVERRIDES ── */
+
+/* 1. Deep Ocean Dark (Default) */
+:root,
+[data-theme="dark"] {
+  --color-surface-base: #010610;
+  --color-surface-raised: #030d1a;
+  --color-surface-overlay: #071525;
+  --color-surface-popover: #0c2040;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-subtle: rgba(255, 255, 255, 0.05);
+  color-scheme: dark;
+}
+
+/* 2. Maritime Research Light (Clean Academic Daylight) */
+[data-theme="light"] {
+  --color-surface-base: #f8fafc;
+  --color-surface-raised: #ffffff;
+  --color-surface-overlay: #f1f5f9;
+  --color-surface-popover: #ffffff;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-border-subtle: rgba(0, 0, 0, 0.05);
+  color-scheme: light;
+}
+
+[data-theme="light"] body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+[data-theme="light"] .bg-\[\#010610\] {
+  background-color: #f8fafc !important;
+}
+
+[data-theme="light"] .bg-\[\#030d1a\] {
+  background-color: #ffffff !important;
+}
+
+[data-theme="light"] .bg-\[\#020b18\] {
+  background-color: #f1f5f9 !important;
+}
+
+[data-theme="light"] .bg-\[\#050e1c\] {
+  background-color: #ffffff !important;
+}
+
+[data-theme="light"] .text-white {
+  color: #0f172a !important;
+}
+
+[data-theme="light"] .text-slate-100,
+[data-theme="light"] .text-slate-200 {
+  color: #1e293b !important;
+}
+
+[data-theme="light"] .text-slate-300,
+[data-theme="light"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+[data-theme="light"] .border-white\/10,
+[data-theme="light"] .border-white\/8,
+[data-theme="light"] .border-white\/5,
+[data-theme="light"] .border-white\/15 {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 3. Satellite Tactical High-Contrast */
+[data-theme="tactical"] {
+  --color-surface-base: #09090b;
+  --color-surface-raised: #18181b;
+  --color-surface-overlay: #27272a;
+  --color-surface-popover: #18181b;
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
+  --color-border: rgba(245, 158, 11, 0.25);
+  --color-border-subtle: rgba(245, 158, 11, 0.12);
+  color-scheme: dark;
+}
+
+[data-theme="tactical"] body {
+  background-color: #09090b !important;
+}
+
+[data-theme="tactical"] .bg-\[\#010610\] {
+  background-color: #09090b !important;
+}
+
+[data-theme="tactical"] .bg-\[\#030d1a\] {
+  background-color: #18181b !important;
+}
+
+[data-theme="tactical"] .bg-\[\#020b18\] {
+  background-color: #121215 !important;
+}
+
+/* ── Global Resets & Calibri Font Everywhere ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Calibri", "Carlito", "Candara", "Segoe UI", Arial, sans-serif;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Calibri", "Carlito", "Candara", "Segoe UI", Arial, sans-serif;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a,
+label,
+strong,
+b,
+em,
+i,
+table,
+th,
+td {
+  font-family: "Calibri", "Carlito", "Candara", "Segoe UI", Arial, sans-serif !important;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-surface-base);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  min-height: 100dvh;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-500);
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: rgba(6, 182, 212, 0.35);
+  color: inherit;
+}
+
+/* ── Focus visible ── */
+:focus-visible {
+  outline: 2px solid var(--color-accent-400);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Scientific Data Typography (Calibri) ── */
+.font-sans,
+.font-mono {
+  font-family: "Calibri", "Carlito", "Candara", "Segoe UI", Arial, sans-serif !important;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+/* ── Realistic Scientific Glass Panels ── */
+.glass {
+  background: var(--color-surface-raised);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--color-border);
+}
+
+/* ── Subtle Transitions ── */
+.transition-default {
+  transition: all 0.15s ease-in-out;
+}
+
+/* ── Subtle Page Animations (Calm & Non-Distracting) ── */
+@keyframes subtle-fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: subtle-fade 0.25s ease-out both;
+}
