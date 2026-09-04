@@ -160,7 +160,7 @@ export function AquaGlobe({
                 Math.round(
                   ((lat - field.latitudes[0]) /
                     (field.latitudes[field.latitudes.length - 1] - field.latitudes[0] || 1)) *
-                    (field.latitudes.length - 1)
+                  (field.latitudes.length - 1)
                 )
               )
             )
@@ -171,7 +171,7 @@ export function AquaGlobe({
                 Math.round(
                   ((lon - field.longitudes[0]) /
                     (field.longitudes[field.nlon - 1] - field.longitudes[0] || 1)) *
-                    (field.nlon - 1)
+                  (field.nlon - 1)
                 )
               )
             )

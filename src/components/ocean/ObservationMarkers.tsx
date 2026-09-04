@@ -198,6 +198,69 @@ function SingleMarker({
         </group>
       )}
 
+      {/* ── 4. MOORED OMNI BUOY: Large conical hull, met tower & radar ── */}
+      {obs.type === 'omni_buoy' && (
+        <group>
+          {/* Conical yellow floating hull */}
+          <mesh position={[0, -0.01, 0]}>
+            <cylinderGeometry args={[0.045, 0.025, 0.035, 16]} />
+            <meshStandardMaterial color="#eab308" emissive="#ca8a04" emissiveIntensity={0.5} roughness={0.3} />
+          </mesh>
+          {/* Meteorological lattice tower */}
+          <mesh position={[0, 0.035, 0]}>
+            <cylinderGeometry args={[0.015, 0.025, 0.06, 4]} />
+            <meshStandardMaterial color="#f8fafc" wireframe={false} metalness={0.7} />
+          </mesh>
+          {/* Top weather sensor / anemometer */}
+          <mesh position={[0, 0.075, 0]}>
+            <sphereGeometry args={[0.012, 8, 8]} />
+            <meshBasicMaterial color="#38bdf8" />
+          </mesh>
+        </group>
+      )}
+
+      {/* ── 5. COASTAL WAVE RIDER BUOY: Spherical high-vis buoy & whip antenna ── */}
+      {obs.type === 'wave_rider' && (
+        <group>
+          {/* Sphere body */}
+          <mesh>
+            <sphereGeometry args={[0.038, 16, 16]} />
+            <meshStandardMaterial color="#ef4444" emissive="#b91c1c" emissiveIntensity={0.6} roughness={0.2} />
+          </mesh>
+          {/* Equatorial bumper ring */}
+          <mesh rotation={[Math.PI / 2, 0, 0]}>
+            <torusGeometry args={[0.038, 0.006, 8, 24]} />
+            <meshStandardMaterial color="#1e293b" />
+          </mesh>
+          {/* Top antenna */}
+          <mesh position={[0, 0.04, 0]}>
+            <cylinderGeometry args={[0.002, 0.002, 0.045, 6]} />
+            <meshStandardMaterial color="#f8fafc" />
+          </mesh>
+        </group>
+      )}
+
+      {/* ── 6. TSUNAMI WARNING BUOY: Deep ocean BPR buoy with satcom dome ── */}
+      {obs.type === 'tsunami_buoy' && (
+        <group>
+          {/* Hexagonal reinforced hull */}
+          <mesh position={[0, -0.012, 0]}>
+            <cylinderGeometry args={[0.05, 0.04, 0.04, 6]} />
+            <meshStandardMaterial color="#f97316" emissive="#c2410c" emissiveIntensity={0.6} roughness={0.2} />
+          </mesh>
+          {/* Satcom dome */}
+          <mesh position={[0, 0.025, 0]}>
+            <sphereGeometry args={[0.025, 16, 16, 0, Math.PI * 2, 0, Math.PI / 2]} />
+            <meshStandardMaterial color="#ffffff" roughness={0.1} />
+          </mesh>
+          {/* Flashing alert beacon */}
+          <mesh position={[0, 0.055, 0]}>
+            <sphereGeometry args={[0.009, 8, 8]} />
+            <meshBasicMaterial color="#ef4444" />
+          </mesh>
+        </group>
+      )}
+
       {/* ── Selection Ring & Target Indicator ───────────────────────────── */}
       {isSelected && (
         <group>

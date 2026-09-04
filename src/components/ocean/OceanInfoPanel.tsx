@@ -37,6 +37,10 @@ const CF_STANDARD_NAMES: Record<OceanVariable, { standard: string; units: string
   current_v: { standard: 'northward_sea_water_velocity', units: 'm s-1' },
   current_w: { standard: 'upward_sea_water_velocity', units: 'm s-1' },
   current_velocity: { standard: 'magnitude_sea_water_velocity', units: 'm s-1' },
+  sea_level: { standard: 'sea_surface_height_above_sea_level', units: 'cm' },
+  oxygen: { standard: 'moles_of_oxygen_per_unit_mass_in_sea_water', units: 'µmol kg-1' },
+  phytoplankton: { standard: 'mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water', units: 'cell L-1' },
+  sea_surface_height: { standard: 'sea_surface_height_above_geoid', units: 'cm' },
 }
 
 function ScientificRow({

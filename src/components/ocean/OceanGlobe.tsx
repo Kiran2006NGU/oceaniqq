@@ -19,8 +19,8 @@ import type { ApiOceanFieldResponse } from '@/services/data/apiOceanData'
 import type { ModelTime } from '@/services/data/mockOceanData'
 
 export const GLOBE_RADIUS = 2.0
-const WIDTH_SEGS = 72
-const HEIGHT_SEGS = 36
+const WIDTH_SEGS = 96   // higher resolution for cleaner rendering
+const HEIGHT_SEGS = 48
 
 interface OceanGlobeProps {
   selectedVariable: OceanVariable
@@ -156,8 +156,10 @@ export function OceanGlobe({ selectedVariable, selectedDepth, selectedTimeIndex,
     <mesh geometry={geometry} castShadow receiveShadow>
       <meshStandardMaterial
         vertexColors
-        roughness={0.6}
-        metalness={0.05}
+        roughness={0.45}
+        metalness={0.08}
+        emissive="#030d1a"
+        emissiveIntensity={0.12}
       />
     </mesh>
   )

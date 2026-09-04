@@ -26,6 +26,17 @@ import {
 
 const ACTIVE_PROVIDERS = [
   {
+    id: 'incois-samudra',
+    name: 'INCOIS SAMUDRA Portal & REST API',
+    org: 'ESSO — Indian National Centre for Ocean Information Services (INCOIS)',
+    type: 'Operational Ocean Forecast & Advisory Engine',
+    format: 'JSON REST API / GeoTIFF / NetCDF-4',
+    status: 'CONNECTED',
+    variables: ['Real-time SST', 'Sea Surface Height (SSH)', 'Current Vectors', 'PFZ Advisories', 'Argo GDAC'],
+    coverage: 'Indian Ocean Basin & Indian Exclusive Economic Zone (EEZ)',
+    capabilities: ['Real-time SST Feeds', 'SSH Anomaly Grids', 'PFZ Species Hotspots', 'Argo Float Mirror'],
+  },
+  {
     id: 'incois-las',
     name: 'INCOIS Live LAS Provider',
     org: 'Indian National Centre for Ocean Information Services (INCOIS)',

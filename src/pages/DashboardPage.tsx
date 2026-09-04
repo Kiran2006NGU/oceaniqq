@@ -10,7 +10,7 @@
  * • Right Inspector Panel for selected sensors and clicked ocean points
  */
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import type { ThreeEvent } from '@react-three/fiber'
 import {
@@ -28,6 +28,8 @@ import {
   Plus,
   ChevronDown,
   Check,
+  Database,
+  Info,
 } from 'lucide-react'
 
 import { useDashboardState } from '@/hooks/useDashboardState'
@@ -49,6 +51,7 @@ import type { SelectedPortionBounds } from '@/components/ocean/PortionSelectionO
 import { REGION_CAMERA_TARGETS, type CameraNavTarget } from '@/components/ocean/CameraController'
 import type { ModelPointMeasurement, OceanVariable } from '@/types/ocean'
 import { latLonToVec3, GLOBE_RADIUS } from '@/utils/geoUtils'
+import { DataIngestionWizard } from '@/components/ui/DataIngestionWizard'
 
 type DockTab = 'layers' | 'regions' | 'anomalies'
 type InspectorTab = 'telemetry' | 'profile' | 'comparison'
@@ -58,6 +61,7 @@ const VARIABLES: { id: OceanVariable; label: string; icon: string; desc: string 
   { id: 'salinity', label: 'Salinity', icon: '🧂', desc: 'Practical Salinity (PSU)' },
   { id: 'current_velocity', label: 'Currents', icon: '🌊', desc: 'Surface & Subsurface Current Velocity (m/s)' },
   { id: 'chlorophyll', label: 'Chlorophyll-a', icon: '🌿', desc: 'Phytoplankton Biomass Concentration (mg/m³)' },
+  { id: 'sea_level', label: 'Sea Level', icon: '🌊', desc: 'Sea Surface Height Anomaly / Altimetry (cm)' },
 ]
 
 const REGIONS = [
@@ -104,6 +108,30 @@ export function DashboardPage() {
 
   // Collapsible Ocean Variable Selector
   const [isVariableDropdownOpen, setIsVariableDropdownOpen] = useState(false)
+
+  // Data Ingestion Wizard
+  const [showIngestionWizard, setShowIngestionWizard] = useState(false)
+
+  // ── URL Param sync (from OperationsPage deep links) ─────────────────────
+  useEffect(() => {
+    const variable = searchParams.get('variable') as OceanVariable | null
+    const region = searchParams.get('region')
+    const depth = searchParams.get('depth')
+    if (variable && VARIABLES.find((v) => v.id === variable)) {
+      state.setSelectedVariable(variable)
+    }
+    if (region) {
+      setSelectedRegion(decodeURIComponent(region))
+      const target = REGION_CAMERA_TARGETS[decodeURIComponent(region)]
+      if (target) setNavTarget(target)
+    }
+    if (depth) {
+      const depthNum = Number(depth)
+      const idx = state.availableDepths.findIndex((d) => Math.abs(d - depthNum) < 30)
+      if (idx >= 0) state.setSelectedDepthIndex(idx)
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // ── Camera Navigation Handlers ──────────────────────────────────────────
   const handleNavHome = useCallback(() => {
@@ -191,69 +219,43 @@ export function DashboardPage() {
             </span>
           </div>
 
-          {/* Center: Collapsible Variable Button & Dropdown */}
-          {(() => {
-            const activeVar = VARIABLES.find((v) => v.id === state.selectedVariable) || VARIABLES[0]
-            return (
-              <div className="relative">
+          {/* Center: Direct 5 Parameter Action Pills */}
+          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
+            {VARIABLES.map((v) => {
+              const isSelected = state.selectedVariable === v.id
+              return (
                 <button
-                  onClick={() => setIsVariableDropdownOpen((o) => !o)}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-slate-200 font-mono text-xs font-semibold transition-all cursor-pointer shadow-sm hover:border-cyan-400/50"
-                  title="Click to switch Ocean Layer"
+                  key={v.id}
+                  onClick={() => {
+                    state.setSelectedVariable(v.id)
+                    if (v.id === 'current_velocity') {
+                      state.batchSetLayers({ currentVectors: true, currentStreamlines: true, valueLabels: true })
+                    } else if (v.id === 'sea_level') {
+                      state.batchSetLayers({ seaLevel: true, valueLabels: true })
+                    } else if (v.id === 'chlorophyll') {
+                      state.batchSetLayers({ phytoplankton: true, pfzFish: true, valueLabels: true })
+                    } else if (v.id === 'salinity') {
+                      state.batchSetLayers({ oceanModel: true, depthSlice: true, valueLabels: true })
+                    } else {
+                      state.batchSetLayers({ oceanModel: true, valueLabels: true })
+                    }
+                  }}
+                  title={v.desc}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-mono text-xs transition-all cursor-pointer whitespace-nowrap ${
+                    isSelected
+                      ? 'bg-cyan-500 text-black font-bold shadow-lg shadow-cyan-500/30 border border-white/40 scale-105'
+                      : 'bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/10'
+                  }`}
                 >
-                  <span className="text-base">{activeVar.icon}</span>
-                  <span className="font-bold text-white">{activeVar.label}</span>
-                  <ChevronDown
-                    size={13}
-                    className={`transition-transform duration-200 text-slate-400 ${
-                      isVariableDropdownOpen ? 'rotate-180 text-cyan-400' : ''
-                    }`}
-                  />
+                  <span className="text-sm">{v.icon}</span>
+                  <span className="font-semibold">{v.label}</span>
+                  {isSelected && (
+                    <span className="w-1.5 h-1.5 rounded-full bg-black animate-pulse ml-0.5" />
+                  )}
                 </button>
-
-                {isVariableDropdownOpen && (
-                  <div className="absolute left-1/2 -translate-x-1/2 sm:left-0 sm:translate-x-0 mt-2 w-64 rounded-2xl bg-[#0e1726] border border-cyan-500/40 shadow-2xl p-2 z-50 animate-fade-in font-mono text-xs space-y-1 backdrop-blur-md">
-                    <div className="text-[10px] uppercase font-bold text-slate-400 px-2.5 py-1 border-b border-white/10 flex items-center justify-between">
-                      <span>Ocean Parameter</span>
-                      <span className="text-[9px] text-cyan-400 font-semibold">Active</span>
-                    </div>
-                    {VARIABLES.map((v) => {
-                      const isSelected = state.selectedVariable === v.id
-                      return (
-                        <button
-                          key={v.id}
-                          onClick={() => {
-                            state.setSelectedVariable(v.id)
-                            setIsVariableDropdownOpen(false)
-                          }}
-                          className={`w-full flex items-center justify-between p-2 rounded-xl transition-all cursor-pointer text-left ${
-                            isSelected
-                              ? 'bg-cyan-500 text-black font-bold shadow-md shadow-cyan-500/30'
-                              : 'hover:bg-white/10 text-slate-200'
-                          }`}
-                        >
-                          <div className="flex items-center gap-2.5">
-                            <span className="text-lg">{v.icon}</span>
-                            <div>
-                              <div className="text-xs font-bold leading-tight">{v.label}</div>
-                              <div
-                                className={`text-[10px] line-clamp-1 ${
-                                  isSelected ? 'text-cyan-950 font-medium' : 'text-slate-400'
-                                }`}
-                              >
-                                {v.desc}
-                              </div>
-                            </div>
-                          </div>
-                          {isSelected && <Check size={15} strokeWidth={3} />}
-                        </button>
-                      )
-                    })}
-                  </div>
-                )}
-              </div>
-            )
-          })()}
+              )
+            })}
+          </div>
 
           {/* Right: Basemap & Scientific Dock Toggle */}
           <div className="flex items-center gap-2">
@@ -309,6 +311,28 @@ export function DashboardPage() {
               <span>3D Depth View ↗</span>
             </a>
 
+            {/* Ingest Data Button */}
+            <button
+              onClick={() => setShowIngestionWizard(true)}
+              title="Ingest new observational data (CSV, Excel, JSON, NetCDF)"
+              id="ingest-data-btn"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-400/30 text-emerald-300 text-xs font-mono font-bold transition-all cursor-pointer"
+            >
+              <Database size={13} />
+              <span className="hidden sm:inline">Ingest Data</span>
+            </button>
+
+            {/* Dataset Provenance & Metadata */}
+            <button
+              onClick={() => setIsDatasetModalOpen(true)}
+              title="Inspect Dataset Provenance & CF-Metadata"
+              id="dataset-info-btn"
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white text-xs font-mono transition-all cursor-pointer"
+            >
+              <Info size={13} className="text-cyan-400" />
+              <span className="hidden xl:inline">CF Metadata</span>
+            </button>
+
             {/* Presentation Mode */}
             <button
               onClick={() => setIsPresentationMode(true)}
@@ -324,6 +348,11 @@ export function DashboardPage() {
       {/* ── MAIN 3D WORKSPACE ───────────────────────────────────────────── */}
       <div className="flex flex-1 overflow-hidden min-h-0 relative">
         <main className="flex-1 relative overflow-hidden min-w-0 min-h-0 bg-[#010610]">
+
+          {/* Data Ingestion Wizard */}
+          {showIngestionWizard && (
+            <DataIngestionWizard onClose={() => setShowIngestionWizard(false)} />
+          )}
           {/* 3D Scene Viewport */}
           <div className="absolute inset-0">
             <OceanScene

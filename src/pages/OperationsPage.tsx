@@ -10,7 +10,8 @@
  * - Tropical Ocean Heat Content (TOHC) cyclogenesis monitoring
  */
 
-import { Link } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import {
   ShieldAlert,
   Flame,
@@ -102,6 +103,21 @@ const OPERATIONAL_PRESETS = [
 ]
 
 export function OperationsPage() {
+  const [searchParams] = useSearchParams()
+  const scenarioParam = searchParams.get('scenario') ?? ''
+  const [activeScenario, setActiveScenario] = useState<string>(scenarioParam)
+  const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
+
+  // Auto-scroll to the scenario specified in URL param
+  useEffect(() => {
+    if (scenarioParam && cardRefs.current[scenarioParam]) {
+      setTimeout(() => {
+        cardRefs.current[scenarioParam]?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        setActiveScenario(scenarioParam)
+      }, 300)
+    }
+  }, [scenarioParam])
+
   return (
     <div className="flex flex-col h-full overflow-y-auto bg-[#010610] text-slate-100 font-sans selection:bg-cyan-500 selection:text-black">
       {/* ── Header ──────────────────────────────────────────────────────── */}
@@ -133,47 +149,101 @@ export function OperationsPage() {
 
       {/* ── Scenarios Container ─────────────────────────────────────────── */}
       <div className="max-w-6xl mx-auto p-4 sm:p-6 space-y-6 w-full">
+        {/* Status Summary Bar */}
+        <div className="flex flex-wrap gap-3 p-3 rounded-2xl bg-[#030d1a] border border-white/10 font-mono text-xs">
+          <div className="flex items-center gap-1.5">
+            <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            <span className="text-slate-300">INCOIS Model: <strong className="text-green-300">ACTIVE</strong></span>
+          </div>
+          <div className="flex items-center gap-1.5 pl-3 border-l border-white/10">
+            <Layers size={11} className="text-cyan-400" />
+            <span className="text-slate-300">4 Operational Presets Loaded</span>
+          </div>
+          <div className="flex items-center gap-1.5 pl-3 border-l border-white/10">
+            <AlertTriangle size={11} className="text-amber-400" />
+            <span className="text-slate-300">SAMUDRA Real-Time: <strong className="text-amber-300">Connecting...</strong></span>
+          </div>
+          <div className="flex items-center gap-1.5 pl-3 border-l border-white/10">
+            <CheckCircle2 size={11} className="text-emerald-400" />
+            <span className="text-slate-300">Alerts Active: <strong className="text-emerald-300">2</strong></span>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {OPERATIONAL_PRESETS.map((p) => (
-            <div
-              key={p.id}
-              className="p-5 rounded-2xl bg-[#030d1a] border border-white/10 hover:border-cyan-400/40 transition-all shadow-xl flex flex-col justify-between"
-            >
-              <div>
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-2">
-                    <div className="p-2 rounded-xl bg-white/5 border border-white/10">{p.icon}</div>
-                    <span className={`text-[9px] font-mono font-bold uppercase px-2.5 py-0.5 rounded-full border ${p.badgeColor}`}>
-                      {p.badge}
-                    </span>
+          {OPERATIONAL_PRESETS.map((p) => {
+            const isActive = activeScenario === p.id
+            return (
+              <div
+                key={p.id}
+                ref={(el) => { cardRefs.current[p.id] = el }}
+                className={`p-5 rounded-2xl border transition-all shadow-xl flex flex-col justify-between cursor-pointer ${
+                  isActive
+                    ? 'bg-[#0a1a2e] border-cyan-400/60 shadow-cyan-900/30 ring-1 ring-cyan-400/30'
+                    : 'bg-[#030d1a] border-white/10 hover:border-cyan-400/40'
+                }`}
+                onClick={() => setActiveScenario(isActive ? '' : p.id)}
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-2">
+                      <div className={`p-2 rounded-xl bg-white/5 border border-white/10 transition-transform ${isActive ? 'scale-110' : ''}`}>
+                        {p.icon}
+                      </div>
+                      <span className={`text-[9px] font-mono font-bold uppercase px-2.5 py-0.5 rounded-full border ${p.badgeColor}`}>
+                        {p.badge}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      {isActive && (
+                        <span className="text-[9px] font-mono text-cyan-300 bg-cyan-500/15 px-2 py-0.5 rounded-full border border-cyan-400/30 animate-pulse">
+                          ● ACTIVE
+                        </span>
+                      )}
+                      <span className="text-[10px] font-mono text-slate-400 flex items-center gap-1">
+                        <Compass size={11} className="text-cyan-400" />
+                        {p.targetRegion}
+                      </span>
+                    </div>
                   </div>
-                  <span className="text-[10px] font-mono text-slate-400">Region: {p.targetRegion}</span>
+
+                  <h3 className="text-base font-bold text-white mb-2 font-mono">{p.title}</h3>
+                  <p className="text-xs text-slate-300 leading-relaxed mb-4">{p.summary}</p>
+
+                  {/* Metrics Table */}
+                  <div className="space-y-1.5 bg-black/30 p-3 rounded-xl border border-white/5 mb-5 font-mono text-xs">
+                    {p.metrics.map((m) => (
+                      <div key={m.label} className="flex justify-between items-center">
+                        <span className="text-slate-400 text-[11px]">{m.label}:</span>
+                        <span className="text-cyan-200 font-bold">{m.val}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                <h3 className="text-base font-bold text-white mb-2 font-mono">{p.title}</h3>
-                <p className="text-xs text-slate-300 leading-relaxed mb-4">{p.summary}</p>
-
-                {/* Metrics Table */}
-                <div className="space-y-1.5 bg-black/30 p-3 rounded-xl border border-white/5 mb-5 font-mono text-xs">
-                  {p.metrics.map((m) => (
-                    <div key={m.label} className="flex justify-between items-center">
-                      <span className="text-slate-400 text-[11px]">{m.label}:</span>
-                      <span className="text-cyan-200 font-bold">{m.val}</span>
-                    </div>
-                  ))}
+                {/* Action Buttons */}
+                <div className="flex gap-2">
+                  <Link
+                    to={`/dashboard?variable=${p.variable}&region=${encodeURIComponent(p.targetRegion)}&depth=${p.depth}&scenario=${p.id}`}
+                    className="flex-1 py-2.5 px-4 rounded-xl bg-cyan-500/15 hover:bg-cyan-500/30 text-cyan-200 border border-cyan-400/40 font-mono font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <span>Launch in 3D Explorer</span>
+                    <ArrowRight size={14} />
+                  </Link>
+                  <a
+                    href="https://samudra.incois.gov.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View on INCOIS SAMUDRA"
+                    className="px-3 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-400 hover:text-white transition-all"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <ExternalLink size={13} />
+                  </a>
                 </div>
               </div>
-
-              {/* Action Button */}
-              <Link
-                to={p.explorerLink}
-                className="w-full py-2.5 px-4 rounded-xl bg-cyan-500/15 hover:bg-cyan-500/30 text-cyan-200 border border-cyan-400/40 font-mono font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-sm"
-              >
-                <span>Launch {p.title.split(' ')[0]} Preset in 3D</span>
-                <ArrowRight size={14} />
-              </Link>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </div>

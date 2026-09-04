@@ -92,62 +92,79 @@
   background-color: #111e36 !important;
 }
 
-/* 2. Maritime Research Light (Crisp Academic Daylight — Perfect Color Combo) */
+/* 2. Maritime Research Light (Crisp Modern Academic & Executive Light Mode) */
 [data-theme="light"] {
-  --color-surface-base: #f1f5f9;
+  --color-surface-base: #f8fafc;
   --color-surface-raised: #ffffff;
-  --color-surface-overlay: #e2e8f0;
+  --color-surface-overlay: #f1f5f9;
   --color-surface-popover: #ffffff;
-  --color-text-primary: #0f172a;
-  --color-text-secondary: #334155;
-  --color-text-muted: #64748b;
-  --color-border: #cbd5e1;
-  --color-border-subtle: #e2e8f0;
+  --color-text-primary: #091e42;
+  --color-text-secondary: #243b53;
+  --color-text-muted: #627d98;
+  --color-border: #d9e2ec;
+  --color-border-subtle: #edf2f7;
   color-scheme: light;
 }
 
 [data-theme="light"] body {
-  background-color: #f1f5f9 !important;
-  color: #0f172a !important;
+  background: linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%) !important;
+  color: #091e42 !important;
 }
 
-[data-theme="light"] .bg-\[\#010610\] {
-  background-color: #f1f5f9 !important;
+[data-theme="light"] .bg-\[\#010610\],
+[data-theme="light"] .bg-\[\#020914\],
+[data-theme="light"] .bg-\[\#000814\] {
+  background: #f8fafc !important;
 }
 
 [data-theme="light"] .bg-\[\#030d1a\],
 [data-theme="light"] .bg-\[\#030d1a\]\/95,
 [data-theme="light"] .bg-\[\#0e1726\],
 [data-theme="light"] .bg-\[\#050e1c\],
-[data-theme="light"] .bg-\[\#121f38\] {
+[data-theme="light"] .bg-\[\#121f38\],
+[data-theme="light"] .bg-\[\#050f1f\],
+[data-theme="light"] .bg-\[\#031428\] {
   background-color: #ffffff !important;
-  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08) !important;
+  border-color: #d9e2ec !important;
+  box-shadow: 0 10px 25px -3px rgba(15, 23, 42, 0.06), 0 4px 6px -2px rgba(15, 23, 42, 0.03) !important;
 }
 
-[data-theme="light"] .bg-\[\#020b18\] {
-  background-color: #f8fafc !important;
+[data-theme="light"] .bg-\[\#020b18\],
+[data-theme="light"] .bg-slate-900,
+[data-theme="light"] .bg-slate-900\/90,
+[data-theme="light"] .bg-slate-950 {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
 }
 
+[data-theme="light"] .bg-black\/40,
 [data-theme="light"] .bg-black\/60,
 [data-theme="light"] .bg-black\/75,
 [data-theme="light"] .bg-black\/80,
+[data-theme="light"] .bg-black\/85,
 [data-theme="light"] .bg-black\/90 {
-  background-color: rgba(255, 255, 255, 0.95) !important;
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.96) !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 12px 30px -4px rgba(2, 44, 102, 0.12) !important;
+  color: #0f172a !important;
 }
 
 [data-theme="light"] .text-white {
-  color: #0f172a !important;
+  color: #0b2545 !important;
 }
 
 [data-theme="light"] .text-slate-100,
 [data-theme="light"] .text-slate-200 {
-  color: #1e293b !important;
+  color: #133b68 !important;
 }
 
 [data-theme="light"] .text-slate-300,
 [data-theme="light"] .text-slate-400 {
-  color: #475569 !important;
+  color: #486581 !important;
+}
+
+[data-theme="light"] .text-slate-500 {
+  color: #627d98 !important;
 }
 
 [data-theme="light"] .border-white\/10,
@@ -155,20 +172,46 @@
 [data-theme="light"] .border-white\/5,
 [data-theme="light"] .border-white\/12,
 [data-theme="light"] .border-white\/15,
-[data-theme="light"] .border-white\/20 {
-  border-color: #cbd5e1 !important;
+[data-theme="light"] .border-white\/20,
+[data-theme="light"] .border-white\/30 {
+  border-color: #d9e2ec !important;
 }
 
 [data-theme="light"] .bg-white\/5,
-[data-theme="light"] .bg-white\/10 {
-  background-color: #f8fafc !important;
-  color: #0f172a !important;
-  border-color: #e2e8f0 !important;
+[data-theme="light"] .bg-white\/10,
+[data-theme="light"] .bg-white\/15 {
+  background-color: #f0f4f8 !important;
+  color: #0b2545 !important;
+  border-color: #d9e2ec !important;
 }
 
 [data-theme="light"] .bg-white\/5:hover,
 [data-theme="light"] .bg-white\/10:hover {
-  background-color: #e2e8f0 !important;
+  background-color: #d9e2ec !important;
+}
+
+[data-theme="light"] input[type="text"],
+[data-theme="light"] input[type="search"],
+[data-theme="light"] select {
+  background-color: #ffffff !important;
+  color: #0b2545 !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="light"] input[type="text"]::placeholder {
+  color: #829ab1 !important;
+}
+
+[data-theme="light"] .bg-cyan-950\/80,
+[data-theme="light"] .bg-cyan-950\/90 {
+  background-color: #e0f2fe !important;
+  color: #0369a1 !important;
+  border-color: #38bdf8 !important;
+}
+
+[data-theme="light"] .text-cyan-300,
+[data-theme="light"] .text-cyan-400 {
+  color: #0284c7 !important;
 }
 
 /* 3. Satellite Tactical High-Contrast */
@@ -200,6 +243,108 @@
 [data-theme="tactical"] .bg-\[\#020b18\] {
   background-color: #121215 !important;
 }
+
+/* 4. Coral Reef — Warm scientific warm-orange palette */
+[data-theme="coral"] {
+  --color-surface-base: #140600;
+  --color-surface-raised: #1f0d00;
+  --color-surface-overlay: #2d1500;
+  --color-surface-popover: #3a1c00;
+  --color-text-primary: #fff7ed;
+  --color-text-secondary: #fdba74;
+  --color-text-muted: #c2773a;
+  --color-border: rgba(249, 115, 22, 0.25);
+  --color-border-subtle: rgba(249, 115, 22, 0.12);
+  color-scheme: dark;
+}
+
+[data-theme="coral"] body { background-color: #140600 !important; }
+[data-theme="coral"] .bg-\[\#010610\] { background-color: #140600 !important; }
+[data-theme="coral"] .bg-\[\#030d1a\] { background-color: #1f0d00 !important; }
+[data-theme="coral"] .bg-\[\#020b18\] { background-color: #1a0a00 !important; }
+[data-theme="coral"] .bg-\[\#0e1726\] { background-color: #2d1500 !important; }
+[data-theme="coral"] .border-white\/10,
+[data-theme="coral"] .border-white\/8,
+[data-theme="coral"] .border-white\/5,
+[data-theme="coral"] .border-white\/15 {
+  border-color: rgba(249, 115, 22, 0.25) !important;
+}
+[data-theme="coral"] .text-cyan-300 { color: #fb923c !important; }
+[data-theme="coral"] .text-cyan-200 { color: #fdba74 !important; }
+[data-theme="coral"] .text-cyan-400 { color: #f97316 !important; }
+[data-theme="coral"] .bg-cyan-500\/15 { background-color: rgba(249,115,22,0.15) !important; }
+[data-theme="coral"] .bg-cyan-500\/20 { background-color: rgba(249,115,22,0.20) !important; }
+[data-theme="coral"] .border-cyan-400\/40 { border-color: rgba(249,115,22,0.40) !important; }
+[data-theme="coral"] .bg-cyan-500 { background-color: #f97316 !important; }
+[data-theme="coral"] .bg-cyan-950 { background-color: #431407 !important; }
+[data-theme="coral"] .shadow-cyan-500\/30 { box-shadow: 0 0 0 1px rgba(249,115,22,0.3) !important; }
+
+/* 5. Arctic Ice — crisp ice-blue high-contrast */
+[data-theme="arctic"] {
+  --color-surface-base: #040e1c;
+  --color-surface-raised: #071829;
+  --color-surface-overlay: #0c2540;
+  --color-surface-popover: #0d2d4f;
+  --color-text-primary: #e0f2fe;
+  --color-text-secondary: #7dd3fc;
+  --color-text-muted: #38bdf8;
+  --color-border: rgba(125, 211, 252, 0.25);
+  --color-border-subtle: rgba(125, 211, 252, 0.10);
+  color-scheme: dark;
+}
+
+[data-theme="arctic"] body { background-color: #040e1c !important; }
+[data-theme="arctic"] .bg-\[\#010610\] { background-color: #040e1c !important; }
+[data-theme="arctic"] .bg-\[\#030d1a\] { background-color: #071829 !important; }
+[data-theme="arctic"] .bg-\[\#020b18\] { background-color: #050f1f !important; }
+[data-theme="arctic"] .border-white\/10,
+[data-theme="arctic"] .border-white\/8,
+[data-theme="arctic"] .border-white\/5,
+[data-theme="arctic"] .border-white\/15 {
+  border-color: rgba(125, 211, 252, 0.20) !important;
+}
+[data-theme="arctic"] .text-cyan-300 { color: #bae6fd !important; }
+[data-theme="arctic"] .text-cyan-200 { color: #e0f2fe !important; }
+[data-theme="arctic"] .text-cyan-400 { color: #7dd3fc !important; }
+[data-theme="arctic"] .bg-cyan-500\/15 { background-color: rgba(125,211,252,0.15) !important; }
+[data-theme="arctic"] .bg-cyan-500\/20 { background-color: rgba(125,211,252,0.20) !important; }
+[data-theme="arctic"] .border-cyan-400\/40 { border-color: rgba(125,211,252,0.40) !important; }
+[data-theme="arctic"] .bg-cyan-500 { background-color: #38bdf8 !important; }
+[data-theme="arctic"] .bg-cyan-950 { background-color: #082f49 !important; }
+
+/* 6. Bioluminescence — deep-sea glow: dark navy + electric green */
+[data-theme="bioluminescence"] {
+  --color-surface-base: #020b07;
+  --color-surface-raised: #071a0e;
+  --color-surface-overlay: #0c2916;
+  --color-surface-popover: #0f3320;
+  --color-text-primary: #dcfce7;
+  --color-text-secondary: #86efac;
+  --color-text-muted: #4ade80;
+  --color-border: rgba(74, 222, 128, 0.22);
+  --color-border-subtle: rgba(74, 222, 128, 0.10);
+  color-scheme: dark;
+}
+
+[data-theme="bioluminescence"] body { background-color: #020b07 !important; }
+[data-theme="bioluminescence"] .bg-\[\#010610\] { background-color: #020b07 !important; }
+[data-theme="bioluminescence"] .bg-\[\#030d1a\] { background-color: #071a0e !important; }
+[data-theme="bioluminescence"] .bg-\[\#020b18\] { background-color: #040c0a !important; }
+[data-theme="bioluminescence"] .border-white\/10,
+[data-theme="bioluminescence"] .border-white\/8,
+[data-theme="bioluminescence"] .border-white\/5,
+[data-theme="bioluminescence"] .border-white\/15 {
+  border-color: rgba(74, 222, 128, 0.22) !important;
+}
+[data-theme="bioluminescence"] .text-cyan-300 { color: #86efac !important; }
+[data-theme="bioluminescence"] .text-cyan-200 { color: #bbf7d0 !important; }
+[data-theme="bioluminescence"] .text-cyan-400 { color: #4ade80 !important; }
+[data-theme="bioluminescence"] .bg-cyan-500\/15 { background-color: rgba(74,222,128,0.15) !important; }
+[data-theme="bioluminescence"] .bg-cyan-500\/20 { background-color: rgba(74,222,128,0.20) !important; }
+[data-theme="bioluminescence"] .border-cyan-400\/40 { border-color: rgba(74,222,128,0.40) !important; }
+[data-theme="bioluminescence"] .bg-cyan-500 { background-color: #22c55e !important; }
+[data-theme="bioluminescence"] .bg-cyan-950 { background-color: #052e16 !important; }
+[data-theme="bioluminescence"] .shadow-cyan-500\/30 { box-shadow: 0 0 12px rgba(74,222,128,0.3) !important; }
 
 /* ── Global Resets & Calibri Font Everywhere ── */
 *,
@@ -347,3 +492,116 @@ body {
 .animate-fade-in {
   animation: subtle-fade 0.25s ease-out both;
 }
+
+/* ── Depth Scan Animation ── */
+@keyframes depth-scan-pulse {
+  0%, 100% { opacity: 0.6; transform: scaleX(1); }
+  50% { opacity: 1; transform: scaleX(1.02); }
+}
+
+.animate-depth-scan {
+  animation: depth-scan-pulse 2s ease-in-out infinite;
+}
+
+/* ── Globe Value Label Float ── */
+@keyframes value-float {
+  0%, 100% { transform: translateY(0px); opacity: 0.9; }
+  50% { transform: translateY(-3px); opacity: 1; }
+}
+
+.animate-value-float {
+  animation: value-float 3s ease-in-out infinite;
+}
+
+/* ── Argo Float Beacon Pulse ── */
+@keyframes beacon-ring {
+  0% { transform: scale(1); opacity: 0.8; }
+  70% { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+.animate-beacon {
+  animation: beacon-ring 2s ease-out infinite;
+}
+
+/* ── Biological Layer Bloom ── */
+@keyframes bloom-expand {
+  0% { transform: scale(0.95); opacity: 0.7; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.7; }
+}
+
+.animate-bloom {
+  animation: bloom-expand 4s ease-in-out infinite;
+}
+
+/* ── Streamline Flow ── */
+@keyframes streamline-flow {
+  0% { stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+
+/* ── Data Ingestion Progress ── */
+@keyframes ingestion-progress {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-ingestion {
+  background: linear-gradient(270deg, #00caf0, #0369a1, #00caf0);
+  background-size: 200% 200%;
+  animation: ingestion-progress 2s ease infinite;
+}
+
+/* ── Theme switcher hover glow ── */
+.theme-swatch:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 16px 4px var(--swatch-glow, rgba(6,182,212,0.4));
+  transition: all 0.2s ease;
+}
+
+/* ── Graph builder axis labels ── */
+.graph-axis-label {
+  font-family: "Calibri", sans-serif;
+  font-size: 11px;
+  fill: var(--color-text-secondary);
+}
+
+/* ── Excel export button shimmer ── */
+@keyframes export-shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.animate-export-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  background-size: 200px 100%;
+  animation: export-shimmer 1.5s infinite;
+}
+
+/* ── Sea Level anomaly pulse ── */
+@keyframes ssh-alert-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
+}
+
+.animate-ssh-alert {
+  animation: ssh-alert-pulse 1.5s ease-out infinite;
+}
+
+/* ── Scrollable chip row (for layer toggles) ── */
+.chip-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+.chip-row::-webkit-scrollbar { display: none; }
+
+/* ── Wizard step indicator ── */
+.wizard-step-done { color: #10b981; }
+.wizard-step-active { color: #00caf0; font-weight: bold; }
+.wizard-step-pending { color: #64748b; }
+

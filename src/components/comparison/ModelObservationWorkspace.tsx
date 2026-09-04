@@ -715,6 +715,12 @@ export function ModelObservationWorkspace() {
                         depthSlice: true,
                         isosurface: false,
                         currentVectors: false,
+                        valueLabels: false,
+                        currentStreamlines: false,
+                        seaLevel: false,
+                        phytoplankton: false,
+                        zooplankton: false,
+                        pfzFish: false,
                       }}
                       autoRotate={false}
                       navTarget={navTarget}

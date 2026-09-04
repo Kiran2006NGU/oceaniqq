@@ -28,6 +28,8 @@ import {
 } from 'lucide-react'
 import { getObservations, type MockObservation } from '@/services/data/mockOceanData'
 import { ObservationProfile } from '@/components/charts/ObservationProfile'
+import { ExportPanel } from '@/components/ui/ExportPanel'
+import { GraphBuilder } from '@/components/charts/GraphBuilder'
 
 type PlatformFilter = 'all' | 'argo' | 'glider' | 'ctd' | 'bgc'
 
@@ -36,6 +38,7 @@ export function ObservationsPage() {
   const [selectedType, setSelectedType] = useState<PlatformFilter>('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedObs, setSelectedObs] = useState<MockObservation | null>(null)
+  const [showGraphBuilder, setShowGraphBuilder] = useState(false)
 
   const allObservations = useMemo(() => getObservations(), [])
 
@@ -81,8 +84,8 @@ export function ObservationsPage() {
           </p>
         </div>
 
-        {/* Search & Quick Controls */}
-        <div className="flex items-center gap-2">
+        {/* Search & Export Controls */}
+        <div className="flex items-center gap-2 flex-wrap">
           <div className="relative">
             <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400" />
             <input
@@ -93,8 +96,21 @@ export function ObservationsPage() {
               className="pl-8 pr-3 py-1.5 rounded-lg bg-[#020b18] border border-white/10 text-xs font-mono text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 w-48 sm:w-64"
             />
           </div>
+          <ExportPanel
+            observations={filtered}
+            label={`Export (${filtered.length})`}
+            onOpenGraphBuilder={() => setShowGraphBuilder(true)}
+          />
         </div>
       </header>
+
+      {/* Graph Builder Modal */}
+      {showGraphBuilder && (
+        <GraphBuilder
+          observations={filtered}
+          onClose={() => setShowGraphBuilder(false)}
+        />
+      )}
 
       {/* ── Main Content Split View ─────────────────────────────────────── */}
       <div className="flex-1 flex overflow-hidden min-h-0">

@@ -12,9 +12,10 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { APP_CONFIG, PRIMARY_NAV_ITEMS, SECONDARY_NAV_ITEMS } from '@/config'
-import { useTheme } from '@/context/ThemeContext'
 import { useUserRole } from '@/context/UserRoleContext'
+import { useChatbot } from '@/context/ChatbotContext'
 import { cn } from '@/utils/cn'
+import { ThemePicker } from '@/components/ui/ThemePicker'
 import {
   Waves,
   Globe,
@@ -28,11 +29,9 @@ import {
   BookOpen,
   Compass,
   ChevronDown,
-  Moon,
-  Sun,
-  Crosshair,
   Menu,
   X,
+  Bot,
 } from 'lucide-react'
 
 const ICON_MAP: Record<string, React.ReactNode> = {
@@ -49,8 +48,8 @@ const ICON_MAP: Record<string, React.ReactNode> = {
 }
 
 export function Navbar() {
-  const { theme, cycleTheme } = useTheme()
   const { roleInfo, cycleRole } = useUserRole()
+  const { openChatbot } = useChatbot()
 
   const [moreOpen, setMoreOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -112,6 +111,22 @@ export function Navbar() {
             </NavLink>
           ))}
 
+          {/* Direct User Manual Link */}
+          <NavLink
+            to="/manual"
+            className={({ isActive }) =>
+              cn(
+                'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-mono font-medium transition-all border',
+                isActive
+                  ? 'bg-amber-500/20 border-amber-400/50 text-amber-200 font-bold'
+                  : 'border-transparent text-slate-400 hover:bg-white/5 hover:text-slate-200'
+              )
+            }
+          >
+            <BookOpen size={13} className="text-amber-400" />
+            <span>User Manual</span>
+          </NavLink>
+
           {/* Secondary "More Tools" Dropdown */}
           <div className="relative" ref={moreRef}>
             <button
@@ -143,8 +158,18 @@ export function Navbar() {
           </div>
         </div>
 
-        {/* Right Tools: Role Switcher + Theme Switcher + Mobile Toggle */}
+        {/* Right Tools: AI Copilot + Role Switcher + Theme Switcher + Mobile Toggle */}
         <div className="flex items-center gap-2">
+          {/* AI Copilot trigger */}
+          <button
+            onClick={openChatbot}
+            title="Open OceanIQ AI Copilot (Natural Language Site Operator)"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-cyan-500/20 to-blue-500/20 hover:from-cyan-500/35 hover:to-blue-500/35 border border-cyan-400/40 text-xs font-mono text-cyan-300 hover:text-white transition-all cursor-pointer shadow-sm"
+          >
+            <Bot size={14} className="text-cyan-400" />
+            <span className="hidden sm:inline font-bold">AI Copilot</span>
+          </button>
+
           {/* User Role Switcher */}
           <button
             onClick={cycleRole}
@@ -155,34 +180,8 @@ export function Navbar() {
             <span className="hidden sm:inline font-bold text-cyan-300">{roleInfo.badge}</span>
           </button>
 
-          {/* Theme Mode Switcher (Prominent & Intuitive) */}
-          <button
-            onClick={cycleTheme}
-            title={`Active Theme: ${
-              theme === 'dark' ? 'Deep Ocean Dark' : theme === 'light' ? 'Maritime Research Light' : 'Satellite Tactical'
-            } (Click to toggle)`}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-xs font-mono font-bold text-slate-200 hover:text-white transition-all cursor-pointer shadow-sm"
-            aria-label="Toggle Theme Mode"
-          >
-            {theme === 'dark' && (
-              <>
-                <Moon size={14} className="text-cyan-300" />
-                <span className="hidden sm:inline text-cyan-200">Dark</span>
-              </>
-            )}
-            {theme === 'light' && (
-              <>
-                <Sun size={14} className="text-amber-500" />
-                <span className="hidden sm:inline text-slate-800">Light</span>
-              </>
-            )}
-            {theme === 'tactical' && (
-              <>
-                <Crosshair size={14} className="text-emerald-400" />
-                <span className="hidden sm:inline text-emerald-300">Tactical</span>
-              </>
-            )}
-          </button>
+          {/* Theme Picker (dropdown with 6 themes) */}
+          <ThemePicker />
 
           {/* Mobile menu button */}
           <button

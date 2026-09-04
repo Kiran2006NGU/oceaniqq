@@ -45,7 +45,7 @@ function SingleAnomalyRing({
       </mesh>
 
       {/* HTML Tag */}
-      <Html center style={{ pointerEvents: 'auto', userSelect: 'none' }}>
+      <Html center zIndexRange={[12, 0]} style={{ pointerEvents: 'auto', userSelect: 'none' }}>
         <button
           onClick={() => onSelect(anomaly)}
           className="group flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-red-950/80 hover:bg-red-900 border border-red-500/60 shadow-lg text-[9px] font-mono font-bold text-red-200 backdrop-blur-sm transition-all hover:scale-105"

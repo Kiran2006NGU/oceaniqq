@@ -14,7 +14,7 @@
 
 import { useRef, useCallback } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Stars } from '@react-three/drei'
+import { OrbitControls } from '@react-three/drei'
 import type { OrbitControls as OrbitControlsImpl } from 'three-stdlib'
 import type { ThreeEvent } from '@react-three/fiber'
 import type { OceanVariable, ModelPointMeasurement } from '@/types/ocean'
@@ -26,9 +26,14 @@ import { ObservationMarkers } from './ObservationMarkers'
 import { ArgoDivePaths } from './ArgoDivePaths'
 import { DepthSlice } from './DepthSlice'
 import { CurrentVectors } from './CurrentVectors'
+import { CurrentStreamlines } from './CurrentStreamlines'
+import { GlobeValueLabels } from './GlobeValueLabels'
+import { BiologicalLayers } from './BiologicalLayers'
+import { SeaLevelLayer } from './SeaLevelLayer'
 import { IsosurfaceLayer } from './IsosurfaceLayer'
 import { SelectionTarget } from './SelectionTarget'
 import { RegionBoundary } from './RegionBoundary'
+import { CelestialStarField } from './CelestialStarField'
 import { CameraController, type CameraNavTarget } from './CameraController'
 import { AnomalyMarkers } from './AnomalyMarkers'
 import type { OceanAnomaly } from '../ai/AnomalyDetectionPanel'
@@ -68,8 +73,8 @@ export type { OrbitControlsImpl }
 // Regional 3D volume positioning over the globe
 const REGION_OFFSETS: Record<string, { position: [number, number, number]; rotation: [number, number, number] }> = {
   'Bay of Bengal': { position: [0.42, 0.42, 1.88], rotation: [0.15, -0.28, 0.05] },
-  'Arabian Sea':   { position: [-0.46, 0.44, 1.86], rotation: [0.15, 0.28, -0.05] },
-  'Andaman Sea':   { position: [0.72, 0.28, 1.78], rotation: [0.10, -0.42, 0.08] },
+  'Arabian Sea': { position: [-0.46, 0.44, 1.86], rotation: [0.15, 0.28, -0.05] },
+  'Andaman Sea': { position: [0.72, 0.28, 1.78], rotation: [0.10, -0.42, 0.08] },
   'Equatorial Indian Ocean': { position: [0.05, -0.15, 1.95], rotation: [-0.08, -0.05, 0] },
 }
 
@@ -113,22 +118,26 @@ export function OceanScene({
   return (
     <Canvas
       camera={{ position: [0.35, 0.65, 3.9], fov: 42, near: 0.1, far: 100 }}
-      gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
+      gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
       style={{ background: 'transparent' }}
       onClick={handleCanvasClick}
     >
       {/* ── Studio & Sunlight Lighting (Brightened for scientific clarity) ── */}
-      <ambientLight intensity={0.85} color="#e0f2fe" />
+      <ambientLight intensity={1.1} color="#e8f4fd" />
       <directionalLight
         position={[6, 5, 4]}
-        intensity={1.7}
+        intensity={1.9}
         color="#ffffff"
         castShadow={false}
       />
-      <pointLight position={[-4, -3, -3]} intensity={0.5} color="#38bdf8" />
+      {/* Fill light from opposite side to eliminate dark zones */}
+      <directionalLight position={[-5, -2, -3]} intensity={0.7} color="#90cdf4" />
+      <pointLight position={[-4, -3, -3]} intensity={0.6} color="#38bdf8" />
+      {/* Subtle back glow for depth */}
+      <pointLight position={[0, 0, -6]} intensity={0.3} color="#1e3a5f" />
 
-      {/* ── Space Background Stars (Distant White Dots) ── */}
-      <Stars radius={100} depth={60} count={5000} factor={1.2} saturation={0} fade speed={0.2} />
+      {/* ── Refined Clustered Celestial Starfield (Realistic Milky Way Band, not everywhere) ── */}
+      <CelestialStarField />
 
       {/* ── Camera Interpolation Controller ── */}
       <CameraController
@@ -208,6 +217,35 @@ export function OceanScene({
         />
       )}
 
+      {/* ── Dynamic Current Streamlines (Particles) ── */}
+      {visibleLayers.currentStreamlines && (
+        <CurrentStreamlines
+          selectedDepth={selectedDepth}
+          visible={visibleLayers.currentStreamlines}
+        />
+      )}
+
+      {/* ── Sea Level (SSH) Layer ── */}
+      {visibleLayers.seaLevel && (
+        <SeaLevelLayer visible={visibleLayers.seaLevel} />
+      )}
+
+      {/* ── Biological Layers (Phytoplankton, Zooplankton, PFZ Fish) ── */}
+      <BiologicalLayers
+        visibleLayers={visibleLayers}
+        selectedDepth={selectedDepth}
+      />
+
+      {/* ── Live Floating Numerical Parameter Labels ── */}
+      {visibleLayers.valueLabels && (
+        <GlobeValueLabels
+          selectedVariable={selectedVariable}
+          selectedDepth={selectedDepth}
+          selectedTimeIso={selectedTime.iso}
+          visible={visibleLayers.valueLabels}
+        />
+      )}
+
       {/* ── In-Situ Observation Markers (Argo 3D Tubes, Glider, CTD) ── */}
       {visibleLayers.argo && (
         <ArgoDivePaths
@@ -218,22 +256,22 @@ export function OceanScene({
           onHover={
             onHoverModelPoint
               ? (obs, e) => {
-                  onHoverModelPoint(
-                    {
-                      latitude: obs.latitude,
-                      longitude: obs.longitude,
-                      depth: obs.currentDepth,
-                      variable: selectedVariable,
-                      value: obs.temperature,
-                      unit: '°C',
-                      timestamp: obs.timestamp,
-                      isNearestGridPoint: false,
-                      nearestLat: obs.latitude,
-                      nearestLon: obs.longitude,
-                    },
-                    e
-                  )
-                }
+                onHoverModelPoint(
+                  {
+                    latitude: obs.latitude,
+                    longitude: obs.longitude,
+                    depth: obs.currentDepth,
+                    variable: selectedVariable,
+                    value: obs.temperature,
+                    unit: '°C',
+                    timestamp: obs.timestamp,
+                    isNearestGridPoint: false,
+                    nearestLat: obs.latitude,
+                    nearestLon: obs.longitude,
+                  },
+                  e
+                )
+              }
               : undefined
           }
           onUnhover={onUnhoverModelPoint}
@@ -253,22 +291,22 @@ export function OceanScene({
           onHover={
             onHoverModelPoint
               ? (obs, e) => {
-                  onHoverModelPoint(
-                    {
-                      latitude: obs.latitude,
-                      longitude: obs.longitude,
-                      depth: obs.currentDepth,
-                      variable: selectedVariable,
-                      value: obs.temperature,
-                      unit: '°C',
-                      timestamp: obs.timestamp,
-                      isNearestGridPoint: false,
-                      nearestLat: obs.latitude,
-                      nearestLon: obs.longitude,
-                    },
-                    e
-                  )
-                }
+                onHoverModelPoint(
+                  {
+                    latitude: obs.latitude,
+                    longitude: obs.longitude,
+                    depth: obs.currentDepth,
+                    variable: selectedVariable,
+                    value: obs.temperature,
+                    unit: '°C',
+                    timestamp: obs.timestamp,
+                    isNearestGridPoint: false,
+                    nearestLat: obs.latitude,
+                    nearestLon: obs.longitude,
+                  },
+                  e
+                )
+              }
               : undefined
           }
           onUnhover={onUnhoverModelPoint}
@@ -286,7 +324,7 @@ export function OceanScene({
         <PortionSelectionOverlay
           isActive={isSelectingPortion}
           onSelectionComplete={onPortionSelected}
-          onCancel={onCancelPortionSelection ?? (() => {})}
+          onCancel={onCancelPortionSelection ?? (() => { })}
         />
       )}
 

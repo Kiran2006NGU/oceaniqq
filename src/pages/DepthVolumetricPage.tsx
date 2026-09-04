@@ -138,6 +138,7 @@ export function DepthVolumetricPage() {
     if (dataSource.includes('Salinity')) return 'salinity'
     if (dataSource.includes('Velocity')) return 'current_velocity'
     if (dataSource.includes('Chlorophyll')) return 'chlorophyll'
+    if (dataSource.includes('Sea Level')) return 'sea_level'
     return 'temperature'
   }, [dataSource])
 
@@ -318,6 +319,7 @@ export function DepthVolumetricPage() {
             <option value="Salinity (Halocline)">Salinity (Halocline)</option>
             <option value="Velocity (Current Jet)">Velocity (Current Jet)</option>
             <option value="Chlorophyll (Phytoplankton)">Chlorophyll (Phytoplankton)</option>
+            <option value="Sea Level (SSHA Altimetry)">Sea Level (SSHA Altimetry)</option>
           </select>
         </div>
 

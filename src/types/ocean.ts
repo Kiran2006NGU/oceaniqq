@@ -13,6 +13,10 @@ export type OceanVariable =
   | 'current_v'
   | 'current_w'
   | 'current_velocity'
+  | 'sea_level'
+  | 'oxygen'
+  | 'phytoplankton'
+  | 'sea_surface_height'
 
 export interface OceanVariableConfig {
   id: OceanVariable
@@ -50,9 +54,17 @@ export interface ModelPointMeasurement {
   provenance?: ProvenanceInfo
 }
 
-// ─── Observation Types ───────────────────────────────────────────────────────
-
-export type ObservationType = 'argo' | 'glider' | 'ctd' | 'bgc' | 'adcp'
+export type ObservationType =
+  | 'argo'
+  | 'glider'
+  | 'ctd'
+  | 'bgc'
+  | 'adcp'
+  | 'omni_buoy'
+  | 'wave_rider'
+  | 'tsunami_buoy'
+  | 'drifter'
+  | 'hf_radar'
 
 export interface ObservationTypeConfig {
   id: ObservationType

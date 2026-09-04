@@ -172,6 +172,7 @@ export const PRIMARY_NAV_ITEMS = [
 ] as const
 
 export const SECONDARY_NAV_ITEMS = [
+  { label: 'User Manual & INCOIS Guide', path: '/manual', icon: 'book-open' },
   { label: 'Data Hub', path: '/data', icon: 'database' },
   { label: 'Diagnostics Lab', path: '/analysis', icon: 'activity' },
   { label: 'Data Providers', path: '/providers', icon: 'network' },

@@ -192,6 +192,19 @@ export function getOceanValue(
       const v = computeCurrentV(lat, lon, depth, t)
       return Math.sqrt(u * u + v * v)
     }
+    case 'sea_level':
+      // Sea surface height anomaly: modelled as wave pattern (cm)
+      return Math.sin(lat * 0.2 + t) * 12 + Math.cos(lon * 0.15) * 8
+    case 'sea_surface_height':
+      return 50 + Math.sin(lat * 0.2 + t) * 15 + Math.cos(lon * 0.15) * 10
+    case 'oxygen':
+      // Dissolved oxygen decreases with depth, higher at surface
+      return Math.max(50, 280 - depth * 0.3 + Math.sin(lat * 0.1) * 20)
+    case 'phytoplankton':
+      // Phytoplankton bloom — higher in coastal upwelling zones
+      return Math.max(0, (1e5 + Math.sin(lat * 0.3) * 5e4) * (1 - depth / 300))
+    default:
+      return 0
   }
 }
 
@@ -254,6 +267,22 @@ const DEMO_OBSERVATIONS: MockObservation[] = [
   { id: 'CTD_ARBS02',   name: 'CTD Station Arabian Sea', type: 'ctd',    platformId: 'CTD-ARABS-02',   latitude: 20.12, longitude:  62.28, timestamp: '2026-08-27T14:00:00Z', currentDepth:   0.0, temperature: 26.3, salinity: 36.9, chlorophyll: 0.29, region: 'Arabian Sea North',      isDemo: true, qualityFlag: 'good' },
   { id: 'CTD_SIO03',    name: 'CTD Station South Indian Ocean', type: 'ctd',    platformId: 'CTD-SIO-03',     latitude:-18.73, longitude:  65.24, timestamp: '2026-08-27T08:00:00Z', currentDepth:   0.0, temperature: 22.1, salinity: 34.8, chlorophyll: 0.15, region: 'Southern Indian Ocean',  isDemo: true, qualityFlag: 'good' },
   { id: 'CTD_ANDM04',   name: 'CTD Station Andaman Sea', type: 'ctd',    platformId: 'CTD-ANDAMAN-04', latitude:  6.18, longitude:  93.12, timestamp: '2026-08-27T12:00:00Z', currentDepth:   0.0, temperature: 29.5, salinity: 32.8, chlorophyll: 0.83, region: 'Andaman Sea',            isDemo: true, qualityFlag: 'good' },
+
+  // Moored OMNI Buoys (Ocean Meteorological & Oceanographic Network)
+  { id: 'OMNI_BD08', name: 'Moored Buoy BD08 (Bay of Bengal)', type: 'omni_buoy', platformId: 'INCOIS-OMNI-BD08', latitude: 18.17, longitude: 89.67, timestamp: '2026-08-28T11:00:00Z', currentDepth: 0.0, temperature: 29.8, salinity: 32.4, chlorophyll: 0.65, region: 'Bay of Bengal', isDemo: false, qualityFlag: 'good' },
+  { id: 'OMNI_BD09', name: 'Moored Buoy BD09 (Central BoB)', type: 'omni_buoy', platformId: 'INCOIS-OMNI-BD09', latitude: 17.50, longitude: 89.12, timestamp: '2026-08-28T11:00:00Z', currentDepth: 0.0, temperature: 29.5, salinity: 32.8, chlorophyll: 0.48, region: 'Bay of Bengal', isDemo: false, qualityFlag: 'good' },
+  { id: 'OMNI_AD02', name: 'Moored Buoy AD02 (Arabian Sea)', type: 'omni_buoy', platformId: 'INCOIS-OMNI-AD02', latitude: 15.00, longitude: 69.00, timestamp: '2026-08-28T11:00:00Z', currentDepth: 0.0, temperature: 28.7, salinity: 36.5, chlorophyll: 0.22, region: 'Arabian Sea', isDemo: false, qualityFlag: 'good' },
+  { id: 'OMNI_CB01', name: 'Moored Buoy CB01 (Calcutta Basin)', type: 'omni_buoy', platformId: 'INCOIS-OMNI-CB01', latitude: 11.50, longitude: 80.50, timestamp: '2026-08-28T11:00:00Z', currentDepth: 0.0, temperature: 29.2, salinity: 33.6, chlorophyll: 0.38, region: 'Bay of Bengal', isDemo: false, qualityFlag: 'good' },
+
+  // Coastal Wave Rider Buoys (WRB Network)
+  { id: 'WRB_KOCHI', name: 'Wave Rider Buoy Kochi', type: 'wave_rider', platformId: 'INCOIS-WRB-01', latitude: 9.93, longitude: 76.26, timestamp: '2026-08-28T11:30:00Z', currentDepth: 0.0, temperature: 28.4, salinity: 34.2, chlorophyll: 0.95, region: 'Malabar Coast', isDemo: false, qualityFlag: 'good' },
+  { id: 'WRB_PUDUCHERRY', name: 'Wave Rider Buoy Puducherry', type: 'wave_rider', platformId: 'INCOIS-WRB-02', latitude: 11.91, longitude: 79.85, timestamp: '2026-08-28T11:30:00Z', currentDepth: 0.0, temperature: 29.1, salinity: 33.8, chlorophyll: 0.72, region: 'Coromandel Coast', isDemo: false, qualityFlag: 'good' },
+  { id: 'WRB_GOPALPUR', name: 'Wave Rider Buoy Gopalpur', type: 'wave_rider', platformId: 'INCOIS-WRB-03', latitude: 19.30, longitude: 84.90, timestamp: '2026-08-28T11:30:00Z', currentDepth: 0.0, temperature: 29.6, salinity: 32.1, chlorophyll: 0.88, region: 'Odisha Coast', isDemo: false, qualityFlag: 'good' },
+  { id: 'WRB_VERAVAL', name: 'Wave Rider Buoy Veraval', type: 'wave_rider', platformId: 'INCOIS-WRB-04', latitude: 20.90, longitude: 70.36, timestamp: '2026-08-28T11:30:00Z', currentDepth: 0.0, temperature: 27.9, salinity: 36.9, chlorophyll: 0.55, region: 'Gujarat Coast', isDemo: false, qualityFlag: 'good' },
+
+  // Deep-Sea Tsunami Warning Buoys (ITEWC Bottom Pressure Recorders)
+  { id: 'TSUNAMI_TB03', name: 'Tsunami Early Warning Buoy TB03', type: 'tsunami_buoy', platformId: 'ITEWC-BPR-TB03', latitude: 6.25, longitude: 88.50, timestamp: '2026-08-28T11:45:00Z', currentDepth: 3800.0, temperature: 2.1, salinity: 34.7, chlorophyll: 0.01, region: 'Bay of Bengal Deep', isDemo: false, qualityFlag: 'good' },
+  { id: 'TSUNAMI_TB05', name: 'Tsunami Early Warning Buoy TB05', type: 'tsunami_buoy', platformId: 'ITEWC-BPR-TB05', latitude: 10.50, longitude: 92.50, timestamp: '2026-08-28T11:45:00Z', currentDepth: 3200.0, temperature: 2.4, salinity: 34.8, chlorophyll: 0.01, region: 'Andaman Trench', isDemo: false, qualityFlag: 'good' },
 ]
 
 /**

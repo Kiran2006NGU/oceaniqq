@@ -115,6 +115,26 @@ export const VARIABLE_COLOR_CONFIGS: Record<OceanVariable, VariableColorConfig> 
     unit: 'm/s', min: 0, max: 2.5,
     colormap: VELOCITY, cssGradient: buildGradient(VELOCITY),
   },
+  sea_level: {
+    id: 'sea_level', label: 'Sea Surface Height Anomaly', shortLabel: 'Sea Level',
+    unit: 'cm', min: -30, max: 30,
+    colormap: HALINE, cssGradient: buildGradient(HALINE),
+  },
+  oxygen: {
+    id: 'oxygen', label: 'Dissolved Oxygen', shortLabel: 'DO',
+    unit: 'µmol/kg', min: 0, max: 350,
+    colormap: THERMAL, cssGradient: buildGradient(THERMAL),
+  },
+  phytoplankton: {
+    id: 'phytoplankton', label: 'Phytoplankton Biomass', shortLabel: 'Phytoplankton',
+    unit: 'cell/L', min: 0, max: 1e6,
+    colormap: ALGAE, cssGradient: buildGradient(ALGAE),
+  },
+  sea_surface_height: {
+    id: 'sea_surface_height', label: 'Sea Surface Height', shortLabel: 'SSH',
+    unit: 'cm', min: -40, max: 40,
+    colormap: HALINE, cssGradient: buildGradient(HALINE),
+  },
 }
 
 // ─── Interpolation ────────────────────────────────────────────────────────────

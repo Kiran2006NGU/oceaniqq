@@ -37,6 +37,16 @@ export interface VisibleLayers {
   currentVectors: boolean
   depthSlice: boolean
   isosurface: boolean
+  // Feature 5: Globe value labels
+  valueLabels: boolean
+  // Feature 5: Animated current streamlines
+  currentStreamlines: boolean
+  // Feature 10: Sea level overlay
+  seaLevel: boolean
+  // Feature 11: Biological layers
+  phytoplankton: boolean
+  zooplankton: boolean
+  pfzFish: boolean
 }
 
 export interface DashboardState {
@@ -80,6 +90,8 @@ export interface DashboardState {
   setSelectedObservationId: (id: string | null) => void
   setSelectedDatasetId: (id: string) => void
   toggleLayer: (layer: keyof VisibleLayers) => void
+  setLayerVisibility: (layer: keyof VisibleLayers, visible: boolean) => void
+  batchSetLayers: (partial: Partial<VisibleLayers>) => void
   setVerticalExaggeration: (v: number) => void
   togglePlay: () => void
   toggleAutoRotate: () => void
@@ -109,6 +121,12 @@ export function useDashboardState(): DashboardState {
     currentVectors: true,
     depthSlice: true,
     isosurface: false,
+    valueLabels: false,
+    currentStreamlines: false,
+    seaLevel: false,
+    phytoplankton: false,
+    zooplankton: false,
+    pfzFish: false,
   })
   const [verticalExaggeration, setVerticalExaggeration] = useState(1)
   const [isPlaying, setIsPlaying] = useState(false)
@@ -180,6 +198,14 @@ export function useDashboardState(): DashboardState {
     setVisibleLayers((prev) => ({ ...prev, [layer]: !prev[layer] }))
   }, [])
 
+  const setLayerVisibility = useCallback((layer: keyof VisibleLayers, visible: boolean) => {
+    setVisibleLayers((prev) => ({ ...prev, [layer]: visible }))
+  }, [])
+
+  const batchSetLayers = useCallback((partial: Partial<VisibleLayers>) => {
+    setVisibleLayers((prev) => ({ ...prev, ...partial }))
+  }, [])
+
   const togglePlay = useCallback(() => {
     setIsPlaying((prev) => !prev)
   }, [])
@@ -237,6 +263,8 @@ export function useDashboardState(): DashboardState {
     setSelectedObservationId,
     setSelectedDatasetId,
     toggleLayer,
+    setLayerVisibility,
+    batchSetLayers,
     setVerticalExaggeration,
     togglePlay,
     toggleAutoRotate,

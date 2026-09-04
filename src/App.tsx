@@ -19,6 +19,7 @@ import { Globe3DPage } from '@/pages/Globe3DPage'
 import { DepthVolumetricPage } from '@/pages/DepthVolumetricPage'
 import { AboutPage } from '@/pages/AboutPage'
 import { AquaVisPage } from '@/pages/AquaVisPage'
+import { UserManualPage } from '@/pages/UserManualPage'
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
           <Route path="depth-view" element={<DepthVolumetricPage />} />
           <Route path="depth-inspector" element={<DepthVolumetricPage />} />
           <Route path="globe" element={<Globe3DPage />} />
+          <Route path="manual" element={<UserManualPage />} />
+          <Route path="guide" element={<UserManualPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="aqua-vis" element={<AquaVisPage />} />
 
